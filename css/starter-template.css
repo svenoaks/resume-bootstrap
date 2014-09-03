@@ -1,5 +1,5 @@
 
-.base-container {
+.m-container {
     background-color: #f8f8f8;
     border: 2px solid #969696;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
@@ -16,14 +16,14 @@ h3.no-margin {
 }
 
 .no-link {
-    color: #777777;
+    color: #428bca;
 }
 .no-link:hover {
     text-decoration:none;
 }
 
 
-.nav-row {
+.row-nav {
     display:block;
     padding-right:20px;
 }
@@ -31,20 +31,19 @@ h3.no-margin {
 .bottom-shadow {
     -webkit-box-shadow: 0 4px 2px -2px rgba(3, 3, 3, 0.2);
     -moz-box-shadow: 0 4px 2px -2px rgba(3, 3, 3, 0.2);
-    box-shadow: 0 4px 2px -2px rgba(3, 3, 3, 0.2);
+    box-shadow: 0 4px 2px 0px rgba(3, 3, 3, 0.2);
 }
 .bottom-line {
     border-bottom: 2px solid #969696;
 }
-.navbar-blank {
+.m-navbar {
     border: none;
     background-image:none;
     box-shadow: none;
     border-radius:0;
     padding-left:0;
-
 }
-.base-body {
+.m-body {
     background-color: #252527;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -52,13 +51,13 @@ h3.no-margin {
 
 .js .container { display: none; }
 
-.base-row {
+.row-content {
 
     margin-right:20px;
 
 }
 
-.top-row {
+.row-top {
 
     margin-top:20px;
 }
@@ -102,8 +101,13 @@ div.no-bottom-margin {
         padding-bottom:30px;
 
     }
-    .top-row {
+    .row-top {
         margin-bottom:20px;
     }
+}
 
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
 }
