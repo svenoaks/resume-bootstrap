@@ -26,7 +26,7 @@ $( document ).ready(function() {
     $(window).scroll(function() {
         var pos = $(window).scrollTop();
         var cur_width = $(".container").css('width');
-
+        var dumb=0;
         if (pos > 30 && cur_width == '970px') {
             $(".row-nav").css({
                 "position": "fixed",
