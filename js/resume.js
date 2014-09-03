@@ -27,11 +27,11 @@ $( document ).ready(function() {
         var pos = $(window).scrollTop();
         var cur_width = $(".container").css('width');
         var dumb=0;
-        if (pos > 30 && cur_width == '970px') {
+        if (pos > 30 && cur_width == '940px') {
             $(".row-nav").css({
                 "position": "fixed",
                 "top":    "0",
-                "width":    "966px",
+                "width":    "936px",
                 "margin-bottom":    "55px"
             });
             $("#aftermenuspace").css({
