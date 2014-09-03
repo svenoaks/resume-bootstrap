@@ -27,19 +27,19 @@ $( document ).ready(function() {
         var pos = $(window).scrollTop();
         var cur_width = $(".container").css('width');
 
-        if (pos > 55 && cur_width == '970px') {
+        if (pos > 30 && cur_width == '970px') {
             $(".row-nav").css({
                 "position": "fixed",
                 "top":    "0",
-                "width":    "970px",
-                "margin-bottom":    "55px",
+                "width":    "966px",
+                "margin-bottom":    "55px"
             });
             $("#aftermenuspace").css({
                 "height":    "55px"
             });
         } else {
             $(".row-nav").css({
-                "position": "relative",
+                "position": "initial",
                 "margin-bottom":    "0",
                 "width":    "initial"
             });
