@@ -28,7 +28,9 @@ h3.no-margin {
     z-index:1000;
     background:#f8f8f8;
 }
-
+.row-top {
+    margin-top:20px;
+}
 .bottom-shadow {
     -webkit-box-shadow: 0 4px 2px -2px rgba(3, 3, 3, 0.2);
     -moz-box-shadow: 0 4px 2px -2px rgba(3, 3, 3, 0.2);
@@ -58,7 +60,11 @@ h3.no-margin {
 
 .row-top {
 
-    margin-top:20px;
+    margin-top:30px;
+}
+
+.row-top p {
+    color:#777;
 }
 
 div.no-bottom-margin {
