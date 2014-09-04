@@ -117,6 +117,33 @@ div.no-bottom-margin {
 
 }
 @media (min-width: 992px) {
+    .col-img {
+
+    }
+    .column-section-title:after {
+        content:"";
+        position:absolute;
+        right:0;
+        top:-10px;
+        width:30px;
+        height:100%;
+        background-color:#f8f8f8;
+        z-index:998;
+
+    }
+    .column-section-title:before {
+        content:"";
+        position:absolute;
+        right:50px;
+        top:0px;
+        height:0;
+        width:0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 7px solid #0575e8;
+        z-index:999;
+
+    }
     .column-content-padding {
         padding-top:30px;
         padding-bottom:30px;
