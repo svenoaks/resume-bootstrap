@@ -2,9 +2,9 @@
  * Created by Steve on 8/24/14.
  */
 var COLOR_ICON_GRAY = "#777";
-var COLOR_LINK = "#3071a9";
+var COLOR_LINK = "#428bca";
 
-var TIME_MS_ICON_ANIMATE = "500";
+var TIME_MS_ICON_ANIMATE = "100";
 var TIME_MS_FADEIN_BODY = 500;
 
 function cssToNumeric(cssStr) {
