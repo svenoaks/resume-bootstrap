@@ -1,33 +1,39 @@
 /**
  * Created by Steve on 8/24/14.
  */
-var COLOR_ICON_GRAY = "#777777";
-var COLOR_LINK = "#428bca";
+var COLOR_ICON_GRAY = "#777";
+var COLOR_LINK = "#3071a9";
 
-var TIME_MS_ICON_ANIMATE = "50";
+var TIME_MS_ICON_ANIMATE = "500";
 var TIME_MS_FADEIN_BODY = 500;
+
+function cssToNumeric(cssStr) {
+    return cssStr.replace(/[^-\d\.]/g, '');
+}
 
 $( document ).ready(function() {
 
+    var pos_fixed_min = parseFloat(cssToNumeric($('.m-body').css("padding-top")));
+
     $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
 
-    $(".no-link").hover(
+    $(".icon-social").hover(
         function() {
             $(this)
                 .clearQueue()
-                .css('color',COLOR_LINK)
-                .animate({'color': COLOR_ICON_GRAY}, TIME_MS_ICON_ANIMATE);
+                .css('color',COLOR_ICON_GRAY)
+                .animate({'color': COLOR_LINK}, TIME_MS_ICON_ANIMATE);
         },
         function() {
             $(this)
-                .animate({'color': COLOR_LINK}, TIME_MS_ICON_ANIMATE);
+                .animate({'color': COLOR_ICON_GRAY}, TIME_MS_ICON_ANIMATE);
         }
     );
     $(window).scroll(function() {
         var pos = $(window).scrollTop();
         var cur_width = $(".container").css('width');
-        var dumb=0;
-        if (pos > 30 && cur_width == '940px') {
+
+        if (pos > pos_fixed_min && cur_width == '940px') {
             $(".row-nav").css({
                 "position": "fixed",
                 "top":    "0",
