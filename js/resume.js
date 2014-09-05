@@ -17,7 +17,7 @@ $( document ).ready(function() {
 
     $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
 
-    $(".icon-social").hover(
+    $(".icon-social, .m-address a").hover(
         function() {
             $(this)
                 .clearQueue()
