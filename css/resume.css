@@ -109,12 +109,32 @@ div.no-bottom-margin {
     margin-bottom:0;
 }
 
+.header-work {
+    margin-top:0;
+    margin-bottom:5px;
+}
+.text-work {
+    display:block;
+    margin-bottom: 10px;
+}
 .column-content-padding {
     padding-top:5px;
     padding-bottom:0px;
 
 }
 
+
+.p-year {
+    color:#fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+    background-color:#428bca;
+    padding-left:3px;
+    padding-right:3px;
+
+}
+.block-year {
+    display:inline-block;
+}
 /*.m-navbar-right {
     position:absolute;
     right:7px;
@@ -170,6 +190,9 @@ div.no-bottom-margin {
     /*.col-about {
         height:150px;
     }*/
+    .column-work {
+        margin-left: -25px;
+    }
     .col-img {
         padding-right:45px;
     }
