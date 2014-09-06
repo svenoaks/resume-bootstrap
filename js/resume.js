@@ -21,15 +21,13 @@ function navbarFixUnfix(pos_fixed_min) {
             "position": "fixed",
             "top":    "0",
             "width":    "936px",
-            "margin-bottom":    "50px"
         });
         $("#aftermenuspace").css({
             "height":    "50px"
-        });5
+        });
     } else {
         $(".row-nav").css({
             "position": "initial",
-            "margin-bottom":    "0",
             "width":    "initial"
         });
         $("#aftermenuspace").css({
@@ -57,6 +55,9 @@ $( document ).ready(function() {
     var pos_fixed_min = $(".m-navbar").offset().top;
 
     $(window).scroll(function() {
+        navbarFixUnfix(pos_fixed_min);
+    });
+    $(window).resize(function() {
         navbarFixUnfix(pos_fixed_min);
     });
     //$(window).resize(navbarFixUnfix);
