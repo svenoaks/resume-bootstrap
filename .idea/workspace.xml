@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a686a4-2e6a-4e37-9780-17cfcaa53bac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicspeed-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musicspeed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rotate.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" afterPath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/resume.css" afterPath="$PROJECT_DIR$/css/resume.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/resume.html" afterPath="$PROJECT_DIR$/html/resume.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/resume.js" afterPath="$PROJECT_DIR$/js/resume.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="resume.iws" />
@@ -43,21 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="resume.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/resume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13964386" vertical-offset="2860" max-vertical-offset="5100">
-              <caret line="177" column="3" selection-start-line="177" selection-start-column="3" selection-end-line="177" selection-end-column="3" />
+            <state vertical-scroll-proportion="-14.230769" vertical-offset="2452" max-vertical-offset="5185">
+              <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="resume.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.615385" vertical-offset="4628" max-vertical-offset="5695">
-              <caret line="290" column="67" selection-start-line="290" selection-start-column="67" selection-end-line="290" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.5576382" vertical-offset="4216" max-vertical-offset="5695">
+              <caret line="283" column="61" selection-start-line="283" selection-start-column="61" selection-end-line="283" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -85,7 +80,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="539" />
+    <option name="x" value="1155" />
     <option name="y" value="22" />
     <option name="width" value="1608" />
     <option name="height" value="1343" />
@@ -307,13 +302,18 @@
       <created>1410019175135</created>
       <updated>1410019175135</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="port">
+      <created>1410028287441</created>
+      <updated>1410028287441</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="539" y="22" width="1608" height="1343" extended-state="0" />
+    <frame x="1155" y="22" width="1608" height="1343" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.120094195" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -328,7 +328,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -356,7 +355,8 @@
     <MESSAGE value="col space" />
     <MESSAGE value="clean" />
     <MESSAGE value="meh" />
-    <option name="LAST_COMMIT_MESSAGE" value="meh" />
+    <MESSAGE value="port" />
+    <option name="LAST_COMMIT_MESSAGE" value="port" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -692,18 +692,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/css/resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.615385" vertical-offset="4628" max-vertical-offset="5695">
-          <caret line="290" column="67" selection-start-line="290" selection-start-column="67" selection-end-line="290" selection-end-column="67" />
+        <state vertical-scroll-proportion="-14.230769" vertical-offset="2452" max-vertical-offset="5185">
+          <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/resume.css">
+    <entry file="file://$PROJECT_DIR$/html/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13964386" vertical-offset="2860" max-vertical-offset="5100">
-          <caret line="177" column="3" selection-start-line="177" selection-start-column="3" selection-end-line="177" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.5576382" vertical-offset="4216" max-vertical-offset="5695">
+          <caret line="283" column="61" selection-start-line="283" selection-start-column="61" selection-end-line="283" selection-end-column="61" />
           <folding />
         </state>
       </provider>

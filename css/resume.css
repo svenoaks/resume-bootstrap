@@ -78,6 +78,7 @@
 .row-top {
     margin-top:20px;
 }
+
 .bottom-shadow {
     -webkit-box-shadow: 0 4px 2px 0px rgba(3, 3, 3, 0.2);
     -moz-box-shadow: 0 4px 2px 0px rgba(3, 3, 3, 0.2);
@@ -214,6 +215,10 @@ div.no-bottom-margin {
 
 }
 @media (min-width: 992px) {
+    .row-scroll {
+        margin-top:-50px;
+        padding-top:50px;
+    }
     .column-section-title {
         margin-top:-1px;
     }
