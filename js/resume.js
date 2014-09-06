@@ -11,9 +11,9 @@ function cssToNumeric(cssStr) {
     return cssStr.replace(/[^-\d\.]/g, '');
 }
 
-function navbarFixUnfix() {
-    var pos = $(window).scrollTop();
-    var pos_fixed_min = parseFloat(cssToNumeric($('.m-body').css("padding-top")));
+function navbarFixUnfix(pos_fixed_min) {
+   var pos = $(window).scrollTop();
+
     var cur_width = $(".container").css('width');
 
     if (pos > pos_fixed_min && cur_width == '940px') {
@@ -54,24 +54,17 @@ $( document ).ready(function() {
                 .animate({'color': COLOR_ICON_GRAY}, TIME_MS_ICON_ANIMATE);
         }
     );
-    $(window).scroll(navbarFixUnfix);
-    $(window).resize(navbarFixUnfix);
+    var pos_fixed_min = $(".m-navbar").offset().top;
 
-    jQuery(function( $ ){
-        /**
-         * Most jQuery.localScroll's settings, actually belong to jQuery.ScrollTo, check it's demo for an example of each option.
-         * @see http://flesler.demos.com/jquery/scrollTo/
-         * You can use EVERY single setting of jQuery.ScrollTo, in the settings hash you send to jQuery.LocalScroll.
-         */
+    $(window).scroll(function() {
+        navbarFixUnfix(pos_fixed_min);
+    });
+    //$(window).resize(navbarFixUnfix);
 
-            // The default axis is 'y', but in this demo, I want to scroll both
-            // You can modify any default like this
+    /*jQuery(function( $ ){
+
         $.localScroll.defaults.axis = 'y';
 
-        /**
-         * NOTE: I use $.localScroll instead of $('#navigation').localScroll() so I
-         * also affect the >> and << links. I want every link in the page to scroll.
-         */
         $.localScroll({
             target: '#education', // could be a selector or a jQuery object too.
             queue:true,
@@ -84,7 +77,7 @@ $( document ).ready(function() {
                 // The 'this' contains the scrolled element (#content)
             }
         });
-    });
+    });*/
 });
 
 
