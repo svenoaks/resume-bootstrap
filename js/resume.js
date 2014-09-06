@@ -1,10 +1,11 @@
 /**
  * Created by Steve on 8/24/14.
  */
+    //TODO: get from css
 var COLOR_ICON_GRAY = "#777";
 var COLOR_LINK = "#428bca";
 
-var TIME_MS_ICON_ANIMATE = "100";
+var TIME_MS_ICON_ANIMATE = 100;
 var TIME_MS_FADEIN_BODY = 500;
 
 var WIDTH_MIN_FIX = "940px";
@@ -56,6 +57,7 @@ $( document ).ready(function() {
                 .animate({'color': COLOR_ICON_GRAY}, TIME_MS_ICON_ANIMATE);
         }
     );
+
     var pos_fixed_min = cssToNumeric($(".m-body").css("padding-top"));
 
     $(window).scroll(function() {
@@ -63,6 +65,11 @@ $( document ).ready(function() {
     });
     $(window).resize(function() {
         navbarFixUnfix(pos_fixed_min);
+    });
+
+    $(".m-navbar-nav li").click(function() {
+        var clickedId = $(this).attr("id");
+        
     });
     //$(window).resize(navbarFixUnfix);
 
