@@ -7,23 +7,27 @@ var COLOR_LINK = "#428bca";
 var TIME_MS_ICON_ANIMATE = "100";
 var TIME_MS_FADEIN_BODY = 500;
 
+var WIDTH_MIN_FIX = "940px";
+var WIDTH_FOR_FIX = "936px";
+
+var HEIGHT_NAVBAR = "50px";
+
 function cssToNumeric(cssStr) {
     return cssStr.replace(/[^-\d\.]/g, '');
 }
 
 function navbarFixUnfix(pos_fixed_min) {
-   var pos = $(window).scrollTop();
-
+    var pos = $(window).scrollTop();
     var cur_width = $(".container").css('width');
 
-    if (pos > pos_fixed_min && cur_width == '940px') {
+    if (pos > pos_fixed_min && cur_width == WIDTH_MIN_FIX) {
         $(".row-nav").css({
             "position": "fixed",
             "top":    "0",
-            "width":    "936px",
+            "width":    WIDTH_FOR_FIX
         });
         $("#aftermenuspace").css({
-            "height":    "50px"
+            "height":    HEIGHT_NAVBAR
         });
     } else {
         $(".row-nav").css({
@@ -52,7 +56,7 @@ $( document ).ready(function() {
                 .animate({'color': COLOR_ICON_GRAY}, TIME_MS_ICON_ANIMATE);
         }
     );
-    var pos_fixed_min = $(".m-navbar").offset().top;
+    var pos_fixed_min = cssToNumeric($(".m-body").css("padding-top"));
 
     $(window).scroll(function() {
         navbarFixUnfix(pos_fixed_min);
