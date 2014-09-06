@@ -21,11 +21,11 @@ function navbarFixUnfix() {
             "position": "fixed",
             "top":    "0",
             "width":    "936px",
-            "margin-bottom":    "55px"
+            "margin-bottom":    "50px"
         });
         $("#aftermenuspace").css({
-            "height":    "55px"
-        });
+            "height":    "50px"
+        });5
     } else {
         $(".row-nav").css({
             "position": "initial",

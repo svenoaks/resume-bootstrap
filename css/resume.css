@@ -198,6 +198,9 @@ div.no-bottom-margin {
 
 }
 @media (min-width: 992px) {
+    .column-section-title {
+        margin-top:-1px;
+    }
     .block-icon-social {
        /* position:absolute;
         bottom:0;*/
