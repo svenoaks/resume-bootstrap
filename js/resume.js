@@ -67,9 +67,9 @@ $( document ).ready(function() {
         navbarFixUnfix(pos_fixed_min);
     });
 
-    $(".m-navbar-nav li").click(function() {
-        var clickedId = $(this).attr("id");
-        
+    $(".m-navbar-nav li a").click(function() {
+        $(".m-navbar-nav .active").removeClass("active");
+        $(this).parent().addClass("active");
     });
     //$(window).resize(navbarFixUnfix);
 
