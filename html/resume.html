@@ -20,7 +20,7 @@
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!--<script src="../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+    <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav m-navbar-nav">
-                        <li class="active"><a href="#objective">Objective</a></li>
+                        <li class="active"><a href="#summary">Summary</a></li>
                         <li><a href="#expertise">Expertise</a></li>
                         <li><a href="#experience">Experience</a></li>
                         <li><a href="#education">Education</a></li>
@@ -90,9 +90,9 @@
             </div>
         </div>
     </section>
-    <section id="objective" class="row row-content row-scroll">
+    <section id="summary" class="row row-content row-scroll">
         <div class="col-md-3 column-content-padding column-section-title">
-            <h3 class="text-center header-title">Objective
+            <h3 class="text-center header-title">Summary
             </h3>
         </div>
         <div class="col-md-9 column-content-first column-content-padding">
@@ -314,41 +314,38 @@
             <h3 class="text-center header-title">Contact
             </h3>
         </div>
-        <div class = "col-md-6 column-content-first column-content-padding">
-            <form class="form-horizontal" role="form">
+        <div class = "col-md-7 column-content-first column-content-padding">
+            <form class="form-horizontal center-block" role="form" action="MAILTO:svenoaks@gmail.com" method="post" enctype="text/plain">
                 <div class="form-group">
-                    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                    <label for="inputName" class="col-sm-2 control-label">Name</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        <input type="text" class="form-control" id="inputName" placeholder="Name">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
                     <div class="col-sm-10">
-                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox"> Remember me
-                            </label>
+                        <label for="inputMessage" class="col-sm-2 control-label">Message</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="inputMessage" placeholder="Message" rows="5"></textarea>
                         </div>
-                    </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                        <button type="submit" class="btn btn-default">Sign in</button>
+                        <button type="submit" class="btn btn-primary">Send the Message</button>
                     </div>
                 </div>
             </form>
+
         </div>
-        <div class="col-md-3 column-content-padding line-top-lg">
-            <h3 class="text-center header-title">Blah
-            </h3>
-        </div>
+
+
     </section>
+
 </section>
 
 
