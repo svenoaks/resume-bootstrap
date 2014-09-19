@@ -5,7 +5,7 @@
 var COLOR_ICON_GRAY = "#777";
 var COLOR_LINK = "#428bca";
 
-var TIME_MS_ICON_ANIMATE = 2000;
+var TIME_MS_ICON_ANIMATE = 300;
 var TIME_MS_FADEIN_BODY = 500;
 
 var WIDTH_DESKTOP = "940px";
@@ -44,7 +44,7 @@ function navbarFixUnfix(pos_fixed_min) {
 $( document ).ready(function() {
 
     $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
-    var cur_width = $(".container").css('width');
+    /*var cur_width = $(".container").css('width');
     if (cur_width == WIDTH_DESKTOP) {
         $(".icon-social, .m-address a").hover(
             function() {
@@ -58,7 +58,7 @@ $( document ).ready(function() {
                     .animate({'color': COLOR_ICON_GRAY}, TIME_MS_ICON_ANIMATE);
             }
         );
-    }
+    }*/
     var pos_fixed_min = cssToNumeric($(".m-body").css("padding-top"));
 
     $(window).scroll(function() {
