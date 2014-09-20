@@ -1,7 +1,7 @@
 /**
  * Created by Steve on 8/24/14.
  */
-    //TODO: get from css
+//TODO: get from css
 var COLOR_ICON_GRAY = "#777";
 var COLOR_LINK = "#428bca";
 
@@ -25,19 +25,19 @@ function navbarFixUnfix(pos_fixed_min) {
     if (pos > pos_fixed_min && cur_width == WIDTH_DESKTOP) {
         $(".row-nav").css({
             "position": "fixed",
-            "top":    "0",
-            "width":    WIDTH_FOR_FIX
+            "top": "0",
+            "width": WIDTH_FOR_FIX
         });
         $("#aftermenuspace").css({
-            "height":    HEIGHT_NAVBAR
+            "height": HEIGHT_NAVBAR
         });
     } else {
         $(".row-nav").css({
             "position": "static",
-            "width":    "initial"
+            "width": "initial"
         });
         $("#aftermenuspace").css({
-            "height":    "0"
+            "height": "0"
         });
     }
 }
@@ -45,10 +45,10 @@ function navbarFixUnfix(pos_fixed_min) {
 function addNavbarFix() {
     var pos_fixed_min = cssToNumeric($(".m-body").css("padding-top"));
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         navbarFixUnfix(pos_fixed_min);
     });
-    $(window).resize(function() {
+    $(window).resize(function () {
         navbarFixUnfix(pos_fixed_min);
     });
 }
@@ -58,57 +58,69 @@ function addNavbarScroll() {
         topMenu = $(".m-navbar-nav"),
         topMenuHeight = topMenu.outerHeight() + 15,
         menuItems = topMenu.find("a"),
-        scrollItems = menuItems.map(function() {
+        scrollItems = menuItems.map(function () {
             var item = $($(this).attr("href"));
-            if (item.length) { return item; }
+            if (item.length) {
+                return item;
+            }
         }),
         noScrollAction = false;
 
-    menuItems.click(function(e) {
-       var href = $(this).attr("href"),
-           offsetTop = href === "#" ? 0 : $(href).offset().top + 2,
-           fromTop = $(this).scrollTop();
+    menuItems.click(function (e) {
+        var href = $(this).attr("href"),
+            offsetTop = href === "#" ? 0 : $(href).offset().top + 2,
+            fromTop = $(this).scrollTop();
         noScrollAction = true;
         $("html, body").stop().animate({
             scrollTop: offsetTop
-        },{
+        }, {
             duration: 300,
-            complete: function() {
+            complete: function () {
                 menuItems
                     .parent().removeClass("active");
-                menuItems.filter("[href=" + href +"]").parent().addClass("active");
-                setTimeout(function() { noScrollAction = false; }, 10);
+                menuItems.filter("[href=" + href + "]").parent().addClass("active");
+                setTimeout(function () {
+                    noScrollAction = false;
+                }, 10);
             }
         });
         e.preventDefault();
     });
 
-    $(window).scroll(function(){
-        if(!noScrollAction){
+    $(window).scroll(function () {
+        if (!noScrollAction) {
             // Get container scroll position
             var fromTop = $(this).scrollTop();
 
             // Get id of current scroll item
-            var cur = scrollItems.map(function(){
+            var passed = scrollItems.map(function () {
                 if ($(this).offset().top < fromTop)
                     return this;
             });
-            // Get the id of the current element
-            cur = cur[cur.length-1];
-            var id = cur && cur.length ? cur[0].id : "";
 
-            if (lastId !== id) {
-                lastId = id;
-                // Set/remove active class
-                menuItems
-                    .parent().removeClass("active")
-                    .end().filter("[href=#"+id+"]").parent().addClass("active");
+            if (passed.length > 0) {
+                // Get the id of the current elemen
+                var cur = passed[passed.length - 1];
+                var id = cur && cur.length ? cur[0].id : "";
+
+                if (lastId !== id) {
+                    lastId = id;
+                    // Set/remove active class
+                    menuItems
+                        .parent().removeClass("active")
+                        .end().filter("[href=#" + id + "]").parent().addClass("active");
+                }
+            }
+            if (passed.length == menuItems.length)
+            {
+                var offsetTop = $(scrollItems[scrollItems.length - 1]).offset().top + 2;
+                $("html, body").scrollTop(offsetTop);
             }
         }
     });
 
 }
-$( document ).ready(function() {
+$(document).ready(function () {
 
     $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
 
