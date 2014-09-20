@@ -1,8 +1,5 @@
 .m-navbar-nav li a {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.2s linear;
+
 }
 .m-container {
     background-color: #fbfbfb;
@@ -10,6 +7,7 @@
     -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom:320px;
 
 }
 .m-address {
@@ -63,10 +61,11 @@
 }
 .icon-social, .m-address a {
     color: #777;
+    transition:color 0.7s ease-out;
 }
 .icon-social:hover, .m-address a:hover {
     text-decoration:none;
-    transition:color 1s;
+    transition:color 0.5s ease;
 }
 
 .m-button {

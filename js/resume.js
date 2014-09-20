@@ -13,6 +13,7 @@ var WIDTH_FOR_FIX = "936px";
 
 var HEIGHT_NAVBAR = "50px";
 
+
 function cssToNumeric(cssStr) {
     return cssStr.replace(/[^-\d\.]/g, '');
 }
@@ -41,24 +42,7 @@ function navbarFixUnfix(pos_fixed_min) {
     }
 }
 
-$( document ).ready(function() {
-
-    $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
-    /*var cur_width = $(".container").css('width');
-    if (cur_width == WIDTH_DESKTOP) {
-        $(".icon-social, .m-address a").hover(
-            function() {
-                $(this)
-                    .clearQueue()
-                    .css('color',COLOR_ICON_GRAY)
-                    .animate({'color': COLOR_LINK}, TIME_MS_ICON_ANIMATE);
-            },
-            function() {
-                $(this)
-                    .animate({'color': COLOR_ICON_GRAY}, TIME_MS_ICON_ANIMATE);
-            }
-        );
-    }*/
+function addNavbarFix() {
     var pos_fixed_min = cssToNumeric($(".m-body").css("padding-top"));
 
     $(window).scroll(function() {
@@ -67,30 +51,70 @@ $( document ).ready(function() {
     $(window).resize(function() {
         navbarFixUnfix(pos_fixed_min);
     });
+}
 
-    $(".m-navbar-nav li a").click(function() {
-        $(".m-navbar-nav .active").removeClass("active");
-        $(this).parent().addClass("active");
-    });
-    //$(window).resize(navbarFixUnfix);
+function addNavbarScroll() {
+    var lastId,
+        topMenu = $(".m-navbar-nav"),
+        topMenuHeight = topMenu.outerHeight() + 15,
+        menuItems = topMenu.find("a"),
+        scrollItems = menuItems.map(function() {
+            var item = $($(this).attr("href"));
+            if (item.length) { return item; }
+        }),
+        noScrollAction = false;
 
-    /*jQuery(function( $ ){
-
-        $.localScroll.defaults.axis = 'y';
-
-        $.localScroll({
-            target: '#education', // could be a selector or a jQuery object too.
-            queue:true,
-            duration:1000,
-            hash:true,
-            onBefore:function( e, anchor, $target ){
-                // The 'this' is the settings object, can be modified
-            },
-            onAfter:function( anchor, settings ){
-                // The 'this' contains the scrolled element (#content)
+    menuItems.click(function(e) {
+       var href = $(this).attr("href"),
+           offsetTop = href === "#" ? 0 : $(href).offset().top + 2,
+           fromTop = $(this).scrollTop();
+        noScrollAction = true;
+        $("html, body").stop().animate({
+            scrollTop: offsetTop
+        },{
+            duration: 300,
+            complete: function() {
+                menuItems
+                    .parent().removeClass("active");
+                menuItems.filter("[href=" + href +"]").parent().addClass("active");
+                setTimeout(function() { noScrollAction = false; }, 10);
             }
         });
-    });*/
+        e.preventDefault();
+    });
+
+    $(window).scroll(function(){
+        if(!noScrollAction){
+            // Get container scroll position
+            var fromTop = $(this).scrollTop();
+
+            // Get id of current scroll item
+            var cur = scrollItems.map(function(){
+                if ($(this).offset().top < fromTop)
+                    return this;
+            });
+            // Get the id of the current element
+            cur = cur[cur.length-1];
+            var id = cur && cur.length ? cur[0].id : "";
+
+            if (lastId !== id) {
+                lastId = id;
+                // Set/remove active class
+                menuItems
+                    .parent().removeClass("active")
+                    .end().filter("[href=#"+id+"]").parent().addClass("active");
+            }
+        }
+    });
+
+}
+$( document ).ready(function() {
+
+    $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
+
+    addNavbarFix();
+
+    addNavbarScroll();
 });
 
 
