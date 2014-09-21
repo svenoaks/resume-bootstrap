@@ -11,11 +11,11 @@
 
 .m-container {
     background-color: #fbfbfb;
-    border: 2px solid #969696;
-    border-top:none;
+    /*border: 2px solid #969696;
+    border-top:none;*/
     -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 4px 12px 4px rgba(0, 0, 0, 0.2);
     margin-bottom:9001px;
 
 }
@@ -133,7 +133,7 @@ textarea {
     /*padding-left:0;*/
 }
 .m-body {
-    background: #333;
+    background: url(../dark.jpg);
     color:#555;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -190,7 +190,7 @@ div.no-bottom-margin {
 .p-year {
     color:#fff;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
-    background-color:#428bca;
+    background-color:#1B5DB3;
     padding-left:4px;
     padding-right:4px;
 
@@ -208,7 +208,7 @@ div.no-bottom-margin {
 }
 
 .column-section-title {
-    border-top: 2px solid #428bca;
+    border-top: 2px solid #1B5DB3;
 }
 
 
@@ -307,7 +307,7 @@ div.no-bottom-margin {
         width:0;
        /* border-left: 6px solid transparent;
         border-right: 6px solid transparent;
-        border-top: 8px solid #428bca;*/
+        border-top: 8px solid #1B5DB3;*/
         z-index:999;
 
     }
@@ -332,8 +332,8 @@ div.no-bottom-margin {
 @media (min-width: 768px) {
     .m-body .m-container .navbar-default .m-navbar-nav .active a {
 
-        border-top:6px solid #3B7DB6;
-        color:#3B7DB6;
+        border-top:7px solid #1B5DB3;
+        color:#1B5DB3;
         background-image:none;
         filter: none;
         background-color:transparent;
@@ -347,8 +347,8 @@ div.no-bottom-margin {
     }
 
     .m-body .m-container .navbar-default .m-navbar-nav a {
-        border-bottom:6px solid transparent;
-        border-top:6px solid transparent;
+        border-bottom:7px solid transparent;
+        border-top:7px solid transparent;
         transition:color 3s;
         color:#666;
     }
@@ -356,7 +356,7 @@ div.no-bottom-margin {
         transition:color 0.1s;
     }
     .m-body .m-container .navbar-default .m-navbar-nav a:hover {
-        color:#3B7DB6;
+        color:#1B5DB3;
         transition:color 0.5s;
     }
    .m-navbar-nav{
