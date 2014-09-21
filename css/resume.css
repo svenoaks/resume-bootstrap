@@ -225,9 +225,12 @@ div.no-bottom-margin {
        padding-right:0;
        padding-left:0;
    }
-
 }
 @media (max-width: 991px) {
+    .img-container {
+        margin-top:7.5px;
+        margin-bottom:7.5px;
+    }
     .img-container {
         width:100%;
         max-width:220px;
@@ -261,8 +264,11 @@ div.no-bottom-margin {
 
 }
 @media (min-width: 992px) {
+    .img-container-second {
+        margin-top:30px;
+    }
     .img-container {
-        padding-bottom:15px;
+
     }
     .row-scroll {
         margin-top:-50px;
@@ -366,10 +372,5 @@ div.no-bottom-margin {
         table-layout: fixed;
     }
 }
-@media (max-width: 767px) {
-    .m-navbar-nav
-    .img-portfolio {
-        margin-top:15px;
-    }
-}
+
 
