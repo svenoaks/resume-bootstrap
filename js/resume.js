@@ -123,12 +123,13 @@
         $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
     }
     function addMoveIcons() {
+        /*var pos_fixed_min = cssToNumeric($(".m-body").css("padding-top"));
         $(window).scroll(function () {
             var fromTop = $(this).scrollTop();
-            if (fromTop > 0) {
-                $(".block-icon-save-print");
+            if (fromTop > pos_fixed_min) {
+                moveBlock($(".block-icon-save-print"), $(".block-icon-save-print-absolute"));
             }
-        });
+        });*/
     }
     function moveBlock(from, to)
     {
@@ -146,7 +147,7 @@
             temp.appendTo("body");
             tmp_from.css("visibility", "hidden");
 
-            temp.animate(to.offset(), moveMan.ANIMATION_TIME, function() {
+            temp.animate(to.offset(), 500, function() {
                 tmp_to.css("visibility", "visible");
                 temp.stop(true);
                 temp.remove();
