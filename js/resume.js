@@ -82,7 +82,10 @@
             e.preventDefault();
         });
 
-        $(window).scroll(function () {
+        $(window).scroll(determineScroll);
+        $(window).resize(determineScroll);
+
+        function determineScroll() {
             if (!noScrollAction) {
                 // Get container scroll position
                 var fromTop = $(this).scrollTop();
@@ -93,21 +96,16 @@
                         return this;
                 });
 
-                    // Get the id of the current elemen
-                    var cur = passed.length > 0 ? passed[passed.length - 1] : scrollItems[0];
-                    var id = cur && cur.length ? cur[0].id : "";
+                // Get the id of the current elemen
+                var cur = passed.length > 0 ? passed[passed.length - 1] : scrollItems[0];
+                var id = cur && cur.length ? cur[0].id : "";
 
-                    if (lastId !== id) {
-                        lastId = id;
-                        // Set/remove active class
-                        menuItems
-                            .parent().removeClass("active")
-                            .end().filter("[href=#" + id + "]").parent().addClass("active");
-                    }
-
-                else
-                {
-
+                if (lastId !== id) {
+                    lastId = id;
+                    // Set/remove active class
+                    menuItems
+                        .parent().removeClass("active")
+                        .end().filter("[href=#" + id + "]").parent().addClass("active");
                 }
                 if (passed.length == menuItems.length)
                 {
@@ -115,13 +113,45 @@
                     $("html, body").scrollTop(offsetTop);
                 }
             }
-        });
+        }
 
     }
+
     function fadeInBody() {
         var TIME_MS_FADEIN_BODY = 500;
 
         $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
+    }
+    function addMoveIcons() {
+        $(window).scroll(function () {
+            var fromTop = $(this).scrollTop();
+            if (fromTop > 0) {
+                $(".block-icon-save-print");
+            }
+        });
+    }
+    function moveBlock(from, to)
+    {
+        (function() {
+
+            var tmp_from = from;
+            var tmp_to = to;
+            var pos = tmp_from.offset();
+            var temp = tmp_from.clone(true);
+
+            temp.css({ "visibility":"visible",
+                "position":"absolute",
+                "top":pos.top + "px",
+                "left":pos.left + "px"});
+            temp.appendTo("body");
+            tmp_from.css("visibility", "hidden");
+
+            temp.animate(to.offset(), moveMan.ANIMATION_TIME, function() {
+                tmp_to.css("visibility", "visible");
+                temp.stop(true);
+                temp.remove();
+            });
+        })();
     }
     $(document).ready(function () {
 
@@ -130,6 +160,8 @@
         addNavbarFix();
 
         addNavbarScroll();
+
+        addMoveIcons();
     });
 })();
 
