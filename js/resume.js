@@ -10,7 +10,7 @@
     }
 
     var WIDTH_DESKTOP = "940px";
-    var WIDTH_FOR_FIX = "936px";
+    var WIDTH_FOR_FIX = "940px";
     var HEIGHT_NAVBAR = "62px";
 
     function navbarFixUnfix(pos_fixed_min) {
@@ -92,9 +92,8 @@
                         return this;
                 });
 
-                if (passed.length > 0) {
                     // Get the id of the current elemen
-                    var cur = passed[passed.length - 1];
+                    var cur = passed.length > 0 ? passed[passed.length - 1] : scrollItems[0];
                     var id = cur && cur.length ? cur[0].id : "";
 
                     if (lastId !== id) {
@@ -104,6 +103,10 @@
                             .parent().removeClass("active")
                             .end().filter("[href=#" + id + "]").parent().addClass("active");
                     }
+
+                else
+                {
+
                 }
                 if (passed.length == menuItems.length)
                 {
