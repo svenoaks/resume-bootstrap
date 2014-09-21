@@ -332,8 +332,8 @@ div.no-bottom-margin {
 @media (min-width: 768px) {
     .m-body .m-container .navbar-default .m-navbar-nav .active a {
 
-        border-top:6px solid #428bca;
-        color:#428bca;
+        border-top:6px solid #3B7DB6;
+        color:#3B7DB6;
         background-image:none;
         filter: none;
         background-color:transparent;
@@ -356,7 +356,7 @@ div.no-bottom-margin {
         transition:color 0.1s;
     }
     .m-body .m-container .navbar-default .m-navbar-nav a:hover {
-        color:#428bca;
+        color:#3B7DB6;
         transition:color 0.5s;
     }
    .m-navbar-nav{
