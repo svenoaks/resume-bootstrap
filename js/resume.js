@@ -62,7 +62,7 @@
 
         menuItems.click(function (e) {
             var href = $(this).attr("href"),
-                offsetTop = href === "#" ? 0 : $(href).offset().top - 8,
+                offsetTop = href === "#" ? 0 : $(href).offset().top - 7,
                 fromTop = $(this).scrollTop();
             noScrollAction = true;
             $("html, body").stop().animate({
@@ -73,9 +73,10 @@
                     menuItems
                         .parent().removeClass("active");
                     menuItems.filter("[href=" + href + "]").parent().addClass("active");
-                    setTimeout(function () {
+                    noScrollAction = false;
+                    /*setTimeout(function () {
                         noScrollAction = false;
-                    }, 10);
+                    }, 400);*/
                 }
             });
             e.preventDefault();
