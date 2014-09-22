@@ -401,29 +401,21 @@
             </div>
         </div>-->
         <div class="row m-jumbotron jumbotron">
-
             <form class="center-block m-form form-horizontal center-block" role="form"
-                  action="MAILTO:svenoaks@gmail.com" method="post"
-                  enctype="text/plain">
+                  action="../mail.php" method="post">
                 <div class="form-group">
-
-
                     <div class="col-sm-12">
-                        <input type="text" class="form-control" id="inputName" placeholder="Name">
+                        <input name="name" type="text" class="form-control" id="inputName" placeholder="Name">
                     </div>
                 </div>
                 <div class="form-group">
-
-
                     <div class="col-sm-12">
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email">
                     </div>
                 </div>
                 <div class="form-group">
-
-
                     <div class="col-sm-12">
-                        <textarea class="form-control" id="inputMessage" placeholder="Message" rows="5"></textarea>
+                        <textarea name="message" class="form-control" id="inputMessage" placeholder="Message" rows="5"></textarea>
                     </div>
                 </div>
                 <div class="form-group">
@@ -432,6 +424,7 @@
                     </div>
                 </div>
             </form>
+
         </div>
     </div>
 
