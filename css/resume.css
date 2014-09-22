@@ -1,9 +1,16 @@
+.m-address {
+    line-height:1.8em;
+}
+.icon-address {
+    color: rgb(172, 49, 49);
+}
+.dumb-envelope {
+    margin-left:-5px;
+}
 .block-icon-save-print {
     margin-top:30px;
 }
-.icon-nav {
 
-}
 .block-icon-save-print-absolute {
     visibility: hidden;
     position:absolute;
@@ -33,9 +40,6 @@
 
 }
 
-.m-address {
-    margin-top: 35px;
-}
 
 
 
@@ -82,6 +86,7 @@
 .icon-social:hover, .m-address a:hover {
     text-decoration: none;
     transition: color 0.5s ease;
+    color: #428bca;
 }
 
 .icon-social {
@@ -236,6 +241,17 @@ div.no-bottom-margin {
 }
 
 @media (max-width: 991px) {
+    .m-address {
+       display:inline;
+
+    }
+
+    .block-address {
+
+        display:table;
+        margin-left:auto;
+        margin-right:auto;
+    }
     .row-content {
         display: block;
     }
@@ -291,9 +307,19 @@ div.no-bottom-margin {
 }
 
 @media (min-width: 992px) {
+
+    .col-address {
+        position: relative;
+        top: -50%;
+        transform: translateY(50%);
+    }
+    .block-icon-save-print-absolute {
+
+        visibility:visible;
+    }
     .block-icon-save-print {
 
-        float:right;
+        display:none;
     }
     .img-container-second {
         margin-top: 20px;
@@ -364,7 +390,7 @@ div.no-bottom-margin {
     }
 
     .row-top {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .container {
