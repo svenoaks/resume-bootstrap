@@ -73,7 +73,7 @@
                     menuItems
                         .parent().removeClass("active");
                     menuItems.filter("[href=" + href + "]").parent().addClass("active");
-                    noScrollAction = false;
+                    noScrollAction = true;
                     setTimeout(function () {
                         noScrollAction = false;
                     }, 10);
