@@ -74,9 +74,9 @@
                         .parent().removeClass("active");
                     menuItems.filter("[href=" + href + "]").parent().addClass("active");
                     noScrollAction = false;
-                    /*setTimeout(function () {
+                    setTimeout(function () {
                         noScrollAction = false;
-                    }, 400);*/
+                    }, 10);
                 }
             });
             e.preventDefault();
@@ -92,7 +92,7 @@
 
                 // Get id of current scroll item
                 var passed = scrollItems.map(function () {
-                    if ($(this).offset().top < fromTop + 8)
+                    if ($(this).offset().top < fromTop + 15)
                         return this;
                 });
 
