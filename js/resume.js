@@ -73,7 +73,6 @@
                     menuItems
                         .parent().removeClass("active");
                     menuItems.filter("[href=" + href + "]").parent().addClass("active");
-                    noScrollAction = true;
                     setTimeout(function () {
                         noScrollAction = false;
                     }, 10);
@@ -92,7 +91,7 @@
 
                 // Get id of current scroll item
                 var passed = scrollItems.map(function () {
-                    if ($(this).offset().top < fromTop + 15)
+                    if ($(this).offset().top < fromTop + 50)
                         return this;
                 });
 
