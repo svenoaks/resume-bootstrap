@@ -62,7 +62,7 @@
 
         menuItems.click(function (e) {
             var href = $(this).attr("href"),
-                offsetTop = href === "#" ? 0 : $(href).offset().top - 7,
+                offsetTop = href === "#" ? 0 : $(href).offset().top - 6,
                 fromTop = $(this).scrollTop();
             noScrollAction = true;
             $("html, body").stop().animate({
@@ -91,7 +91,7 @@
 
                 // Get id of current scroll item
                 var passed = scrollItems.map(function () {
-                    if ($(this).offset().top < fromTop + 50)
+                    if ($(this).offset().top < fromTop + 15)
                         return this;
                 });
 
