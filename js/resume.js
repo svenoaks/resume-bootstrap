@@ -153,15 +153,48 @@
             });
         })();
     }
+    function addSubmitListener() {
+        var request;
+        $("#form-submit").submit(function (event) {
+            if (request) {
+                request.abort();
+            }
+            var $form = $(this);
+            var $inputs = $form.find("input, select, button, textarea");
+
+            var serializedData = $form.serialize();
+
+            $inputs.prop("disabled", true);
+
+            request = $.ajax({
+                url: "singlemindedproductions.net/resume/mail.php",
+                type: "post",
+                data: serializedData
+            });
+
+            request.done(function (response, textStatus, jqXHR) {
+                $("#status").html(response);
+            });
+
+            request.fail(function (jqXHR, textStatus, errorThrown) {
+                $("#status").html("Problem with insertion");
+            });
+
+            request.always(function () {
+                // reenable the inputs
+                $inputs.prop("disabled", false);
+            });
+
+            // prevent default posting of form
+            event.preventDefault();
+        });
+    }
     $(document).ready(function () {
-
         fadeInBody();
-
         addNavbarFix();
-
         addNavbarScroll();
-
         addMoveIcons();
+        addSubmitListener();
     });
 })();
 
