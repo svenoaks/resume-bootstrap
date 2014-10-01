@@ -211,13 +211,23 @@
             }
         }
     }
+    function addPortfolioListener() {
+        $('.img-portfolio').click (function() {
+            setModalInfo(this);
+            $('#modal-portfolio').modal('show');
+        });
+        function setModalInfo(which) {
 
+        }
+    }
+   
     $(document).ready(function () {
         fadeInBody();
         addNavbarFix();
         addNavbarScroll();
         addMoveIcons();
         addSubmitListener();
+        addPortfolioListener();
     });
 })();
 
