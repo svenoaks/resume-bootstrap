@@ -404,17 +404,17 @@
             <form id="form-submit" class="center-block m-form form-horizontal center-block">
                 <div class="form-group">
                     <div class="col-sm-12">
-                        <input name="name" type="text" class="form-control" id="inputName" placeholder="Name">
+                        <input name="name" type="text" class="form-control" id="inputName" placeholder="Name" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12">
-                        <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-sm-12">
-                        <textarea name="message" class="form-control" id="inputMessage" placeholder="Message" rows="5"></textarea>
+                        <textarea name="message" class="form-control" id="inputMessage" placeholder="Message" rows="5" required></textarea>
                     </div>
                 </div>
                 <div class="form-group">
@@ -432,15 +432,15 @@
 </button>-->
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade modal-vertical-centered" id="modal-submit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="myModalLabel">Message Sent</h4>
+                <h4 class="modal-title" id="label-submit">Message Sent</h4>
             </div>
-            <div class="modal-body">
-                Thank you for making contacting me. I will reply within 24 hours.
+            <div id="body-submit" class="modal-body">
+                <p>Thank</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -448,7 +448,6 @@
         </div>
     </div>
 </div>
-
 </section>
 
 

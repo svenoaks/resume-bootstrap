@@ -18,20 +18,4 @@ $text = str_replace("\n.", "\n..", $text);
 
 $success = mail ( "svenoaks@gmail.com" , "Email from Resume" , $text);
 
-if ($success) echo "SUBMISSION SUCCESSFUL"; else echo "NOT";
-
-echo "<!DOCTYPE html>
-			<html>
-				<head>
-				<title>Form Submissiont</title>
-				</head>
-				<body>
-				<h2>Form submission successful!</h2>
-				<ul>
-					<li><h3>User Name: $name</h3></li>
-					<li><h3>User Pass: $email</h3></li>
-					<li><h3>American: $message</h3></li>
-
-				</ul
-				</body>
-			</html>";
+if ($success) exit('success'); else exit('failure');

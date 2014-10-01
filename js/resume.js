@@ -178,11 +178,18 @@
             });
 
             request.done(function (response, textStatus, jqXHR) {
-                $("#status").html(response);
+                if (response == 'success')
+                    setModalInfo(true);
+                else
+                    setModalInfo(false);
+
+                $('#modal-submit').modal('show');
+
             });
 
             request.fail(function (jqXHR, textStatus, errorThrown) {
-                $("#status").html("Problem with insertion");
+                setModalInfo(false);
+                $('#modal-submit').modal('show');
             });
 
             request.always(function () {
@@ -192,6 +199,17 @@
 
             event.preventDefault();
         });
+        function setModalInfo(success) {
+            if (success) {
+                $('#label-submit').html('Message Sent');
+                $('#body-submit p').html('Thank you for contacting me. I will reply within 24 hours.');
+            }
+            else
+            {
+                $('#label-submit').html('Problem sending message');
+                $('#body-submit p').html('Please try the submission again.');
+            }
+        }
     }
 
     $(document).ready(function () {
