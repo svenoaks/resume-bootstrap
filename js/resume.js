@@ -2,7 +2,7 @@
  * Created by Steve on 8/24/14.
  */
 
-(function() {
+(function () {
     "use strict";
 
     function cssToNumeric(cssStr) {
@@ -62,20 +62,21 @@
 
         menuItems.click(function (e) {
             var href = $(this).attr("href"),
-                offsetTop = href === "#" ? 0 : $(href).offset().top - 6,
-                fromTop = $(this).scrollTop();
-            noScrollAction = true;
+                offsetTop = href === "#" ? 0 : $(href).offset().top - 6;
+                noScrollAction = true;
             $("html, body").stop().animate({
                 scrollTop: offsetTop
             }, {
                 duration: 300,
                 complete: function () {
+                    var fromTop = $(this).scrollTop();
                     menuItems
                         .parent().removeClass("active");
                     menuItems.filter("[href=" + href + "]").parent().addClass("active");
                     setTimeout(function () {
                         noScrollAction = false;
                     }, 10);
+
                 }
             });
             e.preventDefault();
@@ -106,8 +107,7 @@
                         .parent().removeClass("active")
                         .end().filter("[href=#" + id + "]").parent().addClass("active");
                 }
-                if (passed.length == menuItems.length)
-                {
+                if (passed.length == menuItems.length) {
                     var offsetTop = $(scrollItems[scrollItems.length - 1]).offset().top - 6;
                     $("html, body").scrollTop(offsetTop);
                 }
@@ -121,38 +121,42 @@
 
         $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
     }
+
     function addMoveIcons() {
         /*var pos_fixed_min = cssToNumeric($(".m-body").css("padding-top"));
-        $(window).scroll(function () {
-            var fromTop = $(this).scrollTop();
-            if (fromTop > pos_fixed_min) {
-                moveBlock($(".block-icon-save-print"), $(".block-icon-save-print-absolute"));
-            }
-        });*/
+         $(window).scroll(function () {
+         var fromTop = $(this).scrollTop();
+         if (fromTop > pos_fixed_min) {
+         moveBlock($(".block-icon-save-print"), $(".block-icon-save-print-absolute"));
+         }
+         });*/
     }
-    function moveBlock(from, to)
-    {
-        (function() {
+
+    function moveBlock(from, to) {
+        (function () {
 
             var tmp_from = from;
             var tmp_to = to;
             var pos = tmp_from.offset();
             var temp = tmp_from.clone(true);
 
-            temp.css({ "visibility":"visible",
-                "position":"absolute",
-                "top":pos.top + "px",
-                "left":pos.left + "px"});
+            temp.css({
+                "visibility": "visible",
+                "position": "absolute",
+                "top": pos.top + "px",
+                "left": pos.left + "px"
+            });
             temp.appendTo("body");
             tmp_from.css("visibility", "hidden");
 
-            temp.animate(to.offset(), 500, function() {
+            temp.animate(to.offset(), 500, function () {
                 tmp_to.css("visibility", "visible");
                 temp.stop(true);
                 temp.remove();
             });
         })();
     }
+
     function addSubmitListener() {
         var request;
         $("#form-submit").submit(function (event) {
@@ -167,7 +171,7 @@
             $inputs.prop("disabled", true);
 
             request = $.ajax({
-                url: "singlemindedproductions.net/resume/mail.php",
+                url: "../mail.php",
                 type: "post",
                 data: serializedData
             });
@@ -181,14 +185,14 @@
             });
 
             request.always(function () {
-                // reenable the inputs
+                
                 $inputs.prop("disabled", false);
             });
 
-            // prevent default posting of form
             event.preventDefault();
         });
     }
+
     $(document).ready(function () {
         fadeInBody();
         addNavbarFix();
