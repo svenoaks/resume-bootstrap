@@ -74,6 +74,7 @@
                         .parent().removeClass("active");
                     menuItems.filter("[href=" + href + "]").parent().addClass("active");
                     setTimeout(function () {
+                        lastId = href.slice(1, href.length);
                         noScrollAction = false;
                     }, 10);
 
@@ -185,7 +186,7 @@
             });
 
             request.always(function () {
-                
+
                 $inputs.prop("disabled", false);
             });
 
