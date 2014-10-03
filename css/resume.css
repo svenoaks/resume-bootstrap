@@ -28,6 +28,10 @@
     background-color: #ddd;
     transition: background-color 0.5s;
 }
+.img-portfolio:active,
+.img-portfolio:active:focus {
+    background-color: #777;
+}
 
 .m-container {
     background-color: #fbfbfb;
