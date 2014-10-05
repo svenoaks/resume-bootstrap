@@ -63,7 +63,7 @@
         menuItems.click(function (e) {
             var href = $(this).attr("href"),
                 offsetTop = href === "#" ? 0 : $(href).offset().top - 6;
-                noScrollAction = true;
+            noScrollAction = true;
             $("html, body").stop().animate({
                 scrollTop: offsetTop
             }, {
@@ -204,15 +204,15 @@
                 $('#label-submit').html('Message Sent');
                 $('#body-submit p').html('Thank you for contacting me. I will reply within 24 hours.');
             }
-            else
-            {
+            else {
                 $('#label-submit').html('Problem sending message');
                 $('#body-submit p').html('Please try the submission again.');
             }
         }
     }
+
     function addPortfolioListener() {
-        $('.img-portfolio').click (function() {
+        $('.img-portfolio').click(function () {
             setModalInfo(this);
             $('#modal-portfolio').modal('show');
         });
@@ -220,7 +220,44 @@
 
         }
     }
-   
+
+    function addPrintListeners() {
+        var mdReg = /col-md-\d+/;
+        var xsReg = /col-xs-\d+/;
+        var mdDivs;
+        var beforePrint = function () {
+            mdDivs = $("[class*=col-md]").map(function () {
+                var classStr = $(this).attr("class");
+                var md = classStr.match(mdReg)[0];
+                var xs = md.replace("-md-", "-xs-");
+                return $(this).removeClass(md).addClass(xs);
+            });
+        };
+        var afterPrint = function () {
+            mdDivs.each(function () {
+                var classStr = $(this).attr("class");
+                var xs = classStr.match(xsReg)[0];
+                var md = xs.replace("-xs-", "-md-");
+                $(this).removeClass(xs).addClass(md);
+            });
+        };
+
+        if (window.matchMedia) {
+            var mediaQueryList = window.matchMedia('print');
+            mediaQueryList.addListener(function (mql) {
+                if (mql.matches) {
+                    beforePrint();
+                } else {
+                    afterPrint();
+                }
+            });
+        }
+
+        window.onbeforeprint = beforePrint;
+        window.onafterprint = afterPrint;
+
+    }
+
     $(document).ready(function () {
         fadeInBody();
         addNavbarFix();
@@ -228,6 +265,7 @@
         addMoveIcons();
         addSubmitListener();
         addPortfolioListener();
+        addPrintListeners();
     });
 })();
 
