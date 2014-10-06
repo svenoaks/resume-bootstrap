@@ -220,7 +220,6 @@
 
         }
     }
-
     function addPrintListeners() {
         var mdReg = /col-md-\d+/;
         var xsReg = /col-xs-\d+/;
@@ -256,8 +255,12 @@
         window.onbeforeprint = beforePrint;
         window.onafterprint = afterPrint;
 
-    }
+        $("#print").click(function () {
+           window.print();
+        });
 
+
+    }
     $(document).ready(function () {
         fadeInBody();
         addNavbarFix();
