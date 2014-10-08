@@ -268,7 +268,7 @@
         addMoveIcons();
         addSubmitListener();
         addPortfolioListener();
-        addPrintListeners();
+        //addPrintListeners();
     });
 })();
 
