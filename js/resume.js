@@ -9,11 +9,11 @@
         return cssStr.replace(/[^-\d\.]/g, '');
     }
 
-    var WIDTH_DESKTOP = "940px";
-    var WIDTH_FOR_FIX = "940px";
-    var HEIGHT_NAVBAR = "62px";
-
     function navbarFixUnfix(pos_fixed_min) {
+        var WIDTH_DESKTOP = "940px";
+        var WIDTH_FOR_FIX = "940px";
+        var HEIGHT_NAVBAR = "62px";
+
         var pos = $(window).scrollTop();
         var cur_width = $(".container").css('width');
 
@@ -254,12 +254,11 @@
 
         window.onbeforeprint = beforePrint;
         window.onafterprint = afterPrint;
-
-        $("#print").click(function () {
-           window.print();
+    }
+    function addIconListeners () {
+        $(".icon-print").click(function () {
+            window.print();
         });
-
-
     }
     $(document).ready(function () {
         fadeInBody();
@@ -268,6 +267,7 @@
         addMoveIcons();
         addSubmitListener();
         addPortfolioListener();
+        addIconListeners();
         //addPrintListeners();
     });
 })();

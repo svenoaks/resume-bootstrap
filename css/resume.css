@@ -118,6 +118,9 @@
     display: block;
     z-index: 1000;
     background: #f8f8f8;
+    -webkit-box-shadow: 0 1px 0.5px 0px #888;
+    -moz-box-shadow: 0 1px 0.5px 0px #888;
+    box-shadow: 0 1px 0.5px 0px #888;
 }
 
 .row-top {
@@ -128,11 +131,6 @@ textarea {
     resize: vertical;
 }
 
-.bottom-shadow {
-    -webkit-box-shadow: 0 4px 2px 0px rgba(3, 3, 3, 0.2);
-    -moz-box-shadow: 0 4px 2px 0px rgba(3, 3, 3, 0.2);
-    box-shadow: 0 1px 0.5px 0px #888;
-}
 
 .m-navbar-brand {
     text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
@@ -318,8 +316,7 @@ div.no-bottom-margin {
 
     .col-address {
         position: relative;
-        top: -50%;
-        transform: translateY(50%);
+        margin-top:27px;
     }
     .block-icon-save-print-absolute {
 
