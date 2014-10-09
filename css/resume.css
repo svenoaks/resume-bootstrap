@@ -450,4 +450,8 @@ div.no-bottom-margin {
     }
 }
 
+@media print {
+    a[href]:after { content: "" !important; }
+}
+
 
