@@ -1,11 +1,27 @@
-.m-address {
-    line-height:1.8em;
+
+#contact li {
+    margin-bottom:10px;
 }
-.icon-address {
-    color: #8C001A;
+.m-container .m-jumbotron {
+    margin-bottom:0;
+    padding-left:15px;
+    padding-right:15px;
+}
+.m-address {
+    margin-bottom:0;
+
+}
+
+.block-address {
+    margin-top:10px;
+}
+.block-icon-social {
+    display:inline-block;
+    margin-right:10px;
 }
 
 .block-icon-save-print {
+    display:inline-block;
     margin-top:0px;
 }
 
@@ -17,7 +33,7 @@
 
 .img-portfolio:hover {
     background-color: #ddd;
-    transition: background-color 0.5s;
+    transition: background-color 0.3s;
 }
 .img-portfolio:active,
 .img-portfolio:active:focus {
@@ -79,7 +95,7 @@
 
 .icon-social, .m-address a {
     color: #777;
-    transition: color 0.7s ease-out;
+    transition: color 0.3s ease-out;
 }
 
 .icon-social:hover, .m-address a:hover {
@@ -88,9 +104,6 @@
     color: #428bca;
 }
 
-.block-icon-save-print .icon-social {
-
-}
 
 .text-portfolio {
     display: block;
@@ -206,16 +219,20 @@ div.no-bottom-margin {
     display: inline-block;
 }
 
-.block-icon-social {
-    margin-bottom:20px;
 
-    /* float: none;
-     margin: auto;
-     text-align: center;
-     margin-bottom: 20px;*/
+
+#icon-stack-overflow:hover {
+    color:#ff8a00;
 }
-
-
+#icon-github:hover {
+    color:#513c7b;
+}
+#icon-android:hover {
+    color:#96c200;
+}
+#icon-google-plus:hover {
+    color:#df4a31;
+}
 /*.m-navbar-right {
     position:absolute;
     right:7px;
@@ -245,14 +262,11 @@ div.no-bottom-margin {
 }
 
 @media (max-width: 991px) {
-    .block-icon-save-print {
+
+    .block-icons {
         text-align:center;
     }
-    .block-address {
-        display:table;
-        margin-left:auto;
-        margin-right:auto;
-    }
+
     /*.m-address {
        display:inline;
     }*/
@@ -309,10 +323,6 @@ div.no-bottom-margin {
 }
 
 @media (min-width: 992px) {
-
-
-
-
     .img-container-second {
         margin-top: 20px;
     }
@@ -386,7 +396,7 @@ div.no-bottom-margin {
         width: 940px;
     }
 
-    .line-top-lg {
+    .column-content-second {
         border-top: 1px solid #969696;
     }
 
