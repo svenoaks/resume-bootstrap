@@ -2,22 +2,13 @@
     line-height:1.7em;
 }
 .icon-address {
-    color: rgb(172, 49, 49);
-}
-.dumb-envelope {
-    margin-left:-5px;
-}
-.block-icon-save-print {
-    margin-top:30px;
+    color: #8C001A;
 }
 
-.block-icon-save-print-absolute {
-    visibility: hidden;
-    position:absolute;
-    right:20px;
-    top:50%;
-    transform: translateY(-50%);
+.block-icon-save-print {
+    margin-top:5px;
 }
+
 .img-portfolio {
     background-color: #eee;
     transition: background-color 1s;
@@ -218,6 +209,16 @@ div.no-bottom-margin {
     display: inline-block;
 }
 
+.block-icon-social {
+    margin-top:20px;
+
+    /* float: none;
+     margin: auto;
+     text-align: center;
+     margin-bottom: 20px;*/
+}
+
+
 /*.m-navbar-right {
     position:absolute;
     right:7px;
@@ -247,26 +248,30 @@ div.no-bottom-margin {
 }
 
 @media (max-width: 991px) {
-    .m-address {
-       display:inline;
-
+    .block-icon-save-print {
+        text-align:center;
     }
-
     .block-address {
-
         display:table;
         margin-left:auto;
         margin-right:auto;
     }
+    /*.m-address {
+       display:inline;
+    }*/
+    /*.block-address {
+
+        display:table;
+        margin-left:auto;
+        margin-right:auto;
+    }*/
+    .col-about p, h1 {
+        text-align:center;
+    }
     .row-content {
         display: block;
     }
-    .block-icon-save-print {
-        position:absolute;
-        top:0;
-        right:0;
-        margin-top:0;
-    }
+
     .img-container {
         margin-top: 7.5px;
         margin-bottom: 7.5px;
@@ -285,12 +290,6 @@ div.no-bottom-margin {
         padding-top: 15px;
     }
 
-    .block-icon-social {
-        float: none;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 20px;
-    }
 
     .row-content {
         margin-left: 0;
@@ -314,18 +313,9 @@ div.no-bottom-margin {
 
 @media (min-width: 992px) {
 
-    .col-address {
-        position: relative;
-        margin-top:27px;
-    }
-    .block-icon-save-print-absolute {
 
-        visibility:visible;
-    }
-    .block-icon-save-print {
 
-        display:none;
-    }
+
     .img-container-second {
         margin-top: 20px;
     }
@@ -343,10 +333,7 @@ div.no-bottom-margin {
         margin-top: -1px;
     }
 
-    .block-icon-social {
-        /* position:absolute;
-         bottom:0;*/
-    }
+
 
     /*.col-about {
         height:150px;
