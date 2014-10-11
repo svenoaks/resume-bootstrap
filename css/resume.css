@@ -7,6 +7,9 @@
     margin-bottom:0;
 
 }
+.m-container #jumbotron-address {
+   padding:10px;
+}
 
 .block-address {
     margin-top:10px;
