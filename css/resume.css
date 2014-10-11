@@ -2,11 +2,7 @@
 #contact li {
     margin-bottom:10px;
 }
-.m-container .m-jumbotron {
-    margin-bottom:0;
-    padding-left:15px;
-    padding-right:15px;
-}
+
 .m-address {
     margin-bottom:0;
 
@@ -112,7 +108,7 @@
 .m-jumbotron {
     padding-top: 35px;
     padding-bottom: 10px;
-    margin-botton: 0;
+
 }
 
 .row-nav {
@@ -290,7 +286,7 @@ div.no-bottom-margin {
 
     .img-container {
         width: 100%;
-        max-width: 220px;
+        max-width: 200px;
     }
 
     .m-jumbotron {
