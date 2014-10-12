@@ -9,6 +9,7 @@
 
 .block-address {
     margin-top:25px;
+    display:inline-block;
 }
 #jumbotron-name {
     padding:0;
