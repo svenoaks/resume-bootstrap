@@ -7,14 +7,13 @@
 
 }
 
-.m-container #jumbotron-address {
-    padding:10px;
-    margin-bottom:0;
-    margin-top:20px;
+.block-address {
+    margin-top:25px;
 }
-
-
-
+#jumbotron-name {
+    padding:0;
+    margin-bottom:0;
+}
 .block-icon-social {
     display:inline-block;
     margin-right:10px;
@@ -93,12 +92,12 @@
     box-shadow: inset 0px 2px 3px #bbb;
 }
 
-.icon-social, #jumbotron-address a {
+.icon-social, .block-address a {
     color: #777;
     transition: color 0.3s ease-out;
 }
 
-.icon-social:hover, .m-address a:hover {
+.icon-social:hover, .block-address a:hover {
     text-decoration: none;
     transition: color 0.5s ease;
     color: #428bca;
