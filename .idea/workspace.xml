@@ -4,7 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a686a4-2e6a-4e37-9780-17cfcaa53bac" name="Default" comment="contact">
+    <list default="true" id="b6a686a4-2e6a-4e37-9780-17cfcaa53bac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" afterPath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/resume.css" afterPath="$PROJECT_DIR$/css/resume.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/resume.html" afterPath="$PROJECT_DIR$/html/resume.html" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="resume.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/resume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69" vertical-offset="3450" max-vertical-offset="6885">
-              <caret line="276" column="22" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.18" vertical-offset="0" max-vertical-offset="6900">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -66,8 +66,8 @@
       <file leaf-file-name="resume.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6" vertical-offset="1815" max-vertical-offset="7065">
-              <caret line="143" column="52" selection-start-line="143" selection-start-column="52" selection-end-line="143" selection-end-column="52" />
+            <state vertical-scroll-proportion="-2.72" vertical-offset="884" max-vertical-offset="7125">
+              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -104,8 +104,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP from XAMPP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="503" />
-    <option name="y" value="27" />
+    <option name="x" value="1028" />
+    <option name="y" value="63" />
     <option name="width" value="1933" />
     <option name="height" value="1283" />
   </component>
@@ -555,11 +555,17 @@
       <option name="project" value="LOCAL" />
       <updated>1413071380057</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="address">
+      <created>1413072988228</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1413072988228</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="503" y="27" width="1933" height="1283" extended-state="0" />
+    <frame x="1028" y="63" width="1933" height="1283" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13179572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -612,7 +618,6 @@
     <MESSAGE value="scroll nav" />
     <MESSAGE value="color" />
     <MESSAGE value="img-container" />
-    <MESSAGE value="address" />
     <MESSAGE value="submit" />
     <MESSAGE value="scroll" />
     <MESSAGE value="active" />
@@ -620,7 +625,8 @@
     <MESSAGE value="move address" />
     <MESSAGE value="circles" />
     <MESSAGE value="contact" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact" />
+    <MESSAGE value="address" />
+    <option name="LAST_COMMIT_MESSAGE" value="address" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1102,8 +1108,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6" vertical-offset="1815" max-vertical-offset="7065">
-          <caret line="143" column="52" selection-start-line="143" selection-start-column="52" selection-end-line="143" selection-end-column="52" />
+        <state vertical-scroll-proportion="-2.72" vertical-offset="884" max-vertical-offset="7125">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1117,8 +1123,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69" vertical-offset="3450" max-vertical-offset="6885">
-          <caret line="276" column="22" selection-start-line="276" selection-start-column="22" selection-end-line="276" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.18" vertical-offset="0" max-vertical-offset="6900">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
