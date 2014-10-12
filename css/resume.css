@@ -275,12 +275,12 @@ div.no-bottom-margin {
     /*.m-address {
        display:inline;
     }*/
-    /*.block-address {
+    .block-address {
 
         display:table;
         margin-left:auto;
         margin-right:auto;
-    }*/
+    }
     .col-about p, h1 {
         text-align:center;
     }
