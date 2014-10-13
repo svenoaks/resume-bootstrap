@@ -16,8 +16,10 @@
 }
 
 #expertise li {
-    margin-top:10px;
     padding-left:0;
+}
+#expertise li:not(:first-child) {
+    margin-top:10px;
 }
 #expertise ul {
 
@@ -405,8 +407,8 @@ div.no-bottom-margin {
     }
 
     .column-content-padding {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .row-top {
