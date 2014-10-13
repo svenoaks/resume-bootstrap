@@ -7,6 +7,22 @@
 
 }
 
+#div-progress-bars div {
+    display:table;
+    width:100%;
+    max-width:400px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#expertise li {
+    margin-top:10px;
+    padding-left:0;
+}
+#expertise ul {
+
+    padding-left:15px;
+}
 .block-address {
     margin-top:25px;
     display:inline-block;
