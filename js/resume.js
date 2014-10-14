@@ -108,10 +108,10 @@
                         .parent().removeClass("active")
                         .end().filter("[href=#" + id + "]").parent().addClass("active");
                 }
-                if (passed.length == menuItems.length) {
+                /*if (passed.length == menuItems.length) {
                     var offsetTop = $(scrollItems[scrollItems.length - 1]).offset().top - 6;
                     $("html, body").scrollTop(offsetTop);
-                }
+                }*/
             }
         }
 

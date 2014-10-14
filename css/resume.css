@@ -112,6 +112,11 @@
     transition: color 0.3s ease-out;
 }
 
+.icon-social, .block-address a:hover:focus {
+    color: #777;
+    transition: color 0.3s ease-out;
+}
+
 .icon-social:hover, .block-address a:hover {
     text-decoration: none;
     transition: color 0.5s ease;
@@ -469,24 +474,48 @@ div.no-bottom-margin {
         font-size:18px;
         margin-top:0;
         text-align:left;
+
     }
-    .lead {
+    i {
+        display:none !important;
+
+    }
+    .col-about p {
         font-size:14px;
         font-style:italic;
         text-align:left;
+        margin-bottom:3px;
+
     }
+
     h3 {
         font-size:16px;
+        text-align:left !important;
     }
     h4 {
         font-size:14px;
+        text-align:left !important;
     }
     p, li {
         font-size:12px;
+        line-height:18px !important;
     }
     .block-address {
-        text-align:left;
         font-size:12px;
         display:block;
+        margin-left:-28px;
+        margin-top:0;
+        line-height:6px !important;
+    }
+    .block-address li {
+        margin-bottom:0;
+        margin-top:0;
+    }
+    .m-container {
+        margin-top:0;
+        margin-bottom:0;
+    }
+    #aftermenuspace {
+        height:0;
     }
 }
