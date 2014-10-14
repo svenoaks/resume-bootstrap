@@ -7,6 +7,11 @@
 
 }
 
+abbr[title], acronym[title] {
+    border-bottom-width: 0;
+    text-dectoration:none;
+}
+
 #div-progress-bars div {
 
 }
@@ -469,53 +474,69 @@ div.no-bottom-margin {
 }
 
 @media print {
-    a[href]:after { content: "" !important; }
+
+    .block-address {
+        color: #777 !important;
+    }
+    .block-year {
+        float:right !important;
+    }
+    a[href]:after, abbr[title]:after {
+        content: "" !important;
+    }
     h1 {
-        font-size:18px;
-        margin-top:0;
-        text-align:left;
+        font-size:22px !important;;
+        margin-top:0 !important;;
+        margin-bottom:0px !important;;
+        text-align:center !important;;
+        line-height:28px !important;;
 
     }
-    i {
+    .fa-stack, i {
         display:none !important;
-
     }
     .col-about p {
-        font-size:14px;
-        font-style:italic;
-        text-align:left;
-        margin-bottom:3px;
-
+        font-size:14px !important;;
+        font-style:italic !important;;
+        text-align:center !important;;
+        margin-bottom:8px !important;;
     }
-
+    abbr {
+        text-decoration: none;
+    }
     h3 {
-        font-size:16px;
+        font-size:16px !important;;
         text-align:left !important;
     }
     h4 {
-        font-size:14px;
+        font-size:14px !important;;
         text-align:left !important;
     }
+    .header-work {
+        margin-top:10px !important;
+    }
+    .row-timeline {
+        margin-top:0 !important;
+    }
     p, li {
-        font-size:12px;
+        font-size:12px !important;;
         line-height:18px !important;
     }
+    h3, h4, #experience em, .block-year {
+        break-after:avoid !important;;
+    }
     .block-address {
-        font-size:12px;
-        display:block;
-        margin-left:-28px;
-        margin-top:0;
-        line-height:6px !important;
+        text-align:center !important;;
+        font-size:12px !important;;
+        margin-top:0 !important;;
+        line-height:18px !important;
     }
-    .block-address li {
-        margin-bottom:0;
-        margin-top:0;
-    }
+
     .m-container {
-        margin-top:0;
-        margin-bottom:0;
+        margin-top:0 !important;;
+        margin-bottom:0 !important;;
     }
     #aftermenuspace {
-        height:0;
+        height:0 !important;
     }
 }
