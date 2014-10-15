@@ -15,7 +15,6 @@ $text = $name . $newLine . $email . $newLine . $message;
 
 $text = str_replace("\n.", "\n..", $text);
 
-
 $success = mail ( "svenoaks@gmail.com" , "Email from Resume" , $text);
 
 if ($success) exit('success'); else exit('failure');

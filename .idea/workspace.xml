@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6a686a4-2e6a-4e37-9780-17cfcaa53bac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/football.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resume.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" afterPath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/resume.css" afterPath="$PROJECT_DIR$/css/resume.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail.php" afterPath="$PROJECT_DIR$/mail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/resume.html" afterPath="$PROJECT_DIR$/html/resume.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -33,10 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="resume.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="resume.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/resume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.205" vertical-offset="6860" max-vertical-offset="8220">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6860" max-vertical-offset="8220">
               <caret line="471" column="28" selection-start-line="471" selection-start-column="28" selection-end-line="471" selection-end-column="28" />
               <folding />
             </state>
@@ -56,18 +59,18 @@
       <file leaf-file-name="mail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="390">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="resume.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7" vertical-offset="1545" max-vertical-offset="6720">
-              <caret line="112" column="52" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
+            <state vertical-scroll-proportion="3.7844312" vertical-offset="1548" max-vertical-offset="6720">
+              <caret line="356" column="118" selection-start-line="356" selection-start-column="118" selection-end-line="356" selection-end-column="118" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,6 +80,20 @@
                 <element signature="n#style#0;n#div#0;n#div#5;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dark.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dark.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="body-bg.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/body-bg.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -95,17 +112,17 @@
       <list>
         <option value="$PROJECT_DIR$/resume.html" />
         <option value="$PROJECT_DIR$/css/starter-template.css" />
-        <option value="$PROJECT_DIR$/mail.php" />
         <option value="$PROJECT_DIR$/js/resume.js" />
         <option value="$PROJECT_DIR$/css/resume.css" />
+        <option value="$PROJECT_DIR$/mail.php" />
         <option value="$PROJECT_DIR$/html/resume.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP from XAMPP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="611" />
-    <option name="y" value="61" />
+    <option name="x" value="406" />
+    <option name="y" value="73" />
     <option name="width" value="1933" />
     <option name="height" value="1283" />
   </component>
@@ -219,6 +236,7 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
     </key>
   </component>
@@ -242,15 +260,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="1">
@@ -615,11 +633,17 @@
       <option name="project" value="LOCAL" />
       <updated>1413246818940</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="bars">
+      <created>1413256401813</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1413256401814</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="611" y="61" width="1933" height="1283" extended-state="0" />
+    <frame x="406" y="73" width="1933" height="1283" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13179572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -636,13 +660,13 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -689,14 +713,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/resume.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2452" max-vertical-offset="5185">
-          <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/resume.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="5695">
@@ -1127,11 +1143,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/body-bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31800">
@@ -1146,14 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/resume.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3204" max-vertical-offset="4230">
@@ -1162,10 +1165,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/resume.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6860" max-vertical-offset="8220">
+          <caret line="471" column="28" selection-start-line="471" selection-start-column="28" selection-end-line="471" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dark.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/body-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7" vertical-offset="1545" max-vertical-offset="6720">
-          <caret line="112" column="52" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
+        <state vertical-scroll-proportion="3.7844312" vertical-offset="1548" max-vertical-offset="6720">
+          <caret line="356" column="118" selection-start-line="356" selection-start-column="118" selection-end-line="356" selection-end-column="118" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1174,14 +1203,6 @@
             <element signature="n#style#0;n#div#0;n#div#4;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#5;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/resume.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.205" vertical-offset="6860" max-vertical-offset="8220">
-          <caret line="471" column="28" selection-start-line="471" selection-start-column="28" selection-end-line="471" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
