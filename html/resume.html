@@ -171,6 +171,8 @@
             code.</li>
             <li>Ability to effectively communicate with other professionals.</li>
         </ul>
+        <p class="visible-print-block">Experience/proficiency with the following programming languages/technologies:
+        Java, Android SDK/NDK, C++, C#, Visual Basic .NET, HTML5, CSS3, JavaScript, JQuery, Twitter Bootstrap, PHP, MySQL, GitHub</p>
     </div>
     <div id="div-progress-bars" class="hidden-print col-md-4 column-content-second column-content-padding">
         <h5 class="text-center header-skill">Java</h5>
@@ -181,7 +183,7 @@
                 <span class="sr-only">40% Complete (success)</span>
             </div>
         </div>
-        <h5 class="text-center header-skill">Android</h5>
+        <h5 class="text-center header-skill">Android SDK/NDK</h5>
 
         <div class="progress m-progress">
             <div class="progress-bar progress-bar-striped m-progress-bar" role="progressbar" aria-valuenow="60"
@@ -221,6 +223,7 @@
                 <span class="sr-only">40% Complete (success)</span>
             </div>
         </div>
+        <p class="hidden-print">Additional proficiencies: VB.NET, JQuery, Twitter Bootstrap, WordPress, GitHub.</p>
     </div>
 </section>
 <section id="experience" class="row row-content row-scroll">
@@ -228,7 +231,6 @@
         <h3 class="text-center header-title">Experience
         </h3>
     </div>
-
     <div class="col-md-9 column-content-first column-content-padding">
         <div class="row row-timeline">
             <div class="col-md-3">
@@ -244,7 +246,7 @@
                     worldwide. </p>
                 <p>Developed useful desktop applications and scripts and extensions for popular software packages in the
                     mechanical and electrical engineering disciplines.</p>
-                <p>Developed a popular website template sold in a theme market. Developed web application for managing
+                <p>Developed a popular website template sold in a theme market. Developed a web application for managing
                     an office football pool.</p>
             </div>
         </div>
@@ -310,7 +312,7 @@
         <div class="row row-portfolio">
             <div class="col-xs-6 col-sm-4 column-portfolio-item">
                 <div class="center-block img-container">
-                    <img class="hidden-print center-block img-portfolio img-thumbnail img-responsive"
+                    <img id="i-musicspeed" class="hidden-print center-block img-portfolio img-thumbnail img-responsive"
                          src="../musicspeed.png">
                     <h4 class="header-portfolio">Music Speed Changer</h4>
                     <em class="text-portfolio">Android Application
@@ -319,7 +321,7 @@
             </div>
             <div class="col-xs-6 col-sm-4 column-portfolio-item">
                 <div class="center-block img-container">
-                    <img class="hidden-print center-block img-portfolio img-thumbnail img-responsive"
+                    <img id="i-soundtouch" class="hidden-print center-block img-portfolio img-thumbnail img-responsive"
                          src="../code.png">
                     <h4 class="header-portfolio">SoundTouch-Android</h4>
                     <em class="text-portfolio">Android Library
@@ -328,7 +330,7 @@
             </div>
             <div class="col-xs-6 col-sm-4 column-portfolio-item">
                 <div class="center-block img-container">
-                    <img class="hidden-print center-block img-portfolio img-thumbnail img-responsive" src="../flow.png">
+                    <img id="i-musicflow" class="hidden-print center-block img-portfolio img-thumbnail img-responsive" src="../flow.png">
                     <h4 class="header-portfolio">Music Flow</h4>
                     <em class="text-portfolio">Android Application
                     </em>
@@ -336,7 +338,7 @@
             </div>
             <div class="col-xs-6 col-sm-4 column-portfolio-item">
                 <div class="center-block img-container img-container-second">
-                    <img class="hidden-print center-block img-portfolio img-thumbnail img-responsive"
+                    <img id="i-rotate" class="hidden-print center-block img-portfolio img-thumbnail img-responsive"
                          src="../rotate.png">
                     <h4 class="header-portfolio">Pdf Rotate and Merge</h4>
                     <em class="text-portfolio">Android Application
@@ -345,7 +347,7 @@
             </div>
             <div class="col-xs-6 col-sm-4 column-portfolio-item">
                 <div class="center-block img-container img-container-second">
-                    <img class="hidden-print center-block img-portfolio img-thumbnail img-responsive"
+                    <img id="i-resume" class="hidden-print center-block img-portfolio img-thumbnail img-responsive"
                          src="../resume.png">
                     <h4 class="header-portfolio">Simple Résumé</h4>
                     <em class="text-portfolio">Website Template
@@ -354,9 +356,9 @@
             </div>
             <div class="col-xs-6 col-sm-4 column-portfolio-item">
                 <div class="center-block img-container img-container-second">
-                    <img class="hidden-print center-block img-portfolio img-thumbnail img-responsive" src="../football.png">
+                    <img id="i-football" class="hidden-print center-block img-portfolio img-thumbnail img-responsive" src="../football.png">
                     <h4 class="header-portfolio">OfficeCFC</h4>
-                    <em class="text-portfolio">Website
+                    <em class="text-portfolio">Football Pool Website
                     </em>
                 </div>
             </div>
@@ -422,10 +424,20 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
                         class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="label-portfolio">Message</h4>
+                <h4 class="modal-title" id="h-musicspeed">Music Speed Changer</h4>
+                <h4 class="modal-title" id="h-soundtouch">SoundTouch-Android</h4>
+                <h4 class="modal-title" id="h-musicflow">Music Flow</h4>
+                <h4 class="modal-title" id="h-rotate">Pdf Rotate and Merge</h4>
+                <h4 class="modal-title" id="h-resume">Simple Résumé</h4>
+                <h4 class="modal-title" id="h-football">OfficeCFC</h4>
             </div>
             <div id="body-portfolio" class="modal-body">
-                <p>Thank</p>
+                <p id="p-musicspeed">Music Speed Changer</p>
+                <p id="p-soundtouch">SoundToucp-Android</p>
+                <p id="p-musicflow">Music Flow</p>
+                <p id="p-rotate">Pdf Rotate and Merge</p>
+                <p id="p-resume">Simple Résumé</p>
+                <p id="p-football">OfficeCFC</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -434,7 +446,6 @@
     </div>
 </div>
 </section>
-
 <script src="../js/jquery-2.1.1.js"></script>
 <script src="../js/jquery.animate-colors.js"></script>
 <script src="../js/bootstrap.js"></script>

@@ -2,9 +2,15 @@
     margin-bottom:10px;
 }
 
+
+
 .m-address {
     margin-bottom:0;
 
+}
+
+#pic {
+    max-width:160px;
 }
 
 abbr[title], acronym[title] {
