@@ -479,21 +479,21 @@ div.no-bottom-margin {
         content: "" !important;
     }
     h1 {
-        font-size:22px !important;;
-        margin-top:0 !important;;
-        margin-bottom:0px !important;;
-        text-align:center !important;;
-        line-height:28px !important;;
+        font-size:22px !important;
+        margin-top:0 !important;
+        margin-bottom:0px !important;
+        text-align:center !important;
+        line-height:28px !important;
 
     }
     .fa-stack, i {
         display:none !important;
     }
     .col-about p {
-        font-size:14px !important;;
-        font-style:italic !important;;
-        text-align:center !important;;
-        margin-bottom:8px !important;;
+        font-size:14px !important;
+        font-style:italic !important;
+        text-align:center !important;
+        margin-bottom:8px !important;
     }
     abbr {
         text-decoration: none;
@@ -503,7 +503,7 @@ div.no-bottom-margin {
         text-align:left !important;
     }
     h4 {
-        font-size:14px !important;;
+        font-size:14px !important;
         text-align:left !important;
     }
     .header-work {
@@ -517,12 +517,12 @@ div.no-bottom-margin {
         line-height:18px !important;
     }
     h3, h4, #experience em, #education em, .block-year {
-        break-after:avoid !important;;
+        break-after:avoid !important;
     }
     .block-address {
-        text-align:center !important;;
-        font-size:12px !important;;
-        margin-top:0 !important;;
+        text-align:center !important;
+        font-size:12px !important;
+        margin-top:0 !important;
         line-height:18px !important;
     }
 
