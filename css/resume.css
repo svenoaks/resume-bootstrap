@@ -9,6 +9,10 @@
 
 }
 
+a:focus {
+    outline:0;
+}
+
 #pic {
     max-width:160px;
 }
