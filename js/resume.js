@@ -212,12 +212,22 @@
     }
 
     function addPortfolioListener() {
+        var portfolioHeadings = $("#modal-portfolio h4").hide(),
+            portfolioBody = $("#body-portfolio *").hide(),
+            SKIP_IDENTIFIER = 2;
+
         $('.img-portfolio').click(function () {
             setModalInfo(this);
             $('#modal-portfolio').modal('show');
         });
         function setModalInfo(which) {
+            var id = $(which).attr("id").substring(SKIP_IDENTIFIER);
 
+            portfolioHeadings.hide();
+            portfolioBody.hide();
+
+            $("#h-" + id).show();
+            $(".body-" + id).show();
         }
     }
     function addPrintListeners() {
