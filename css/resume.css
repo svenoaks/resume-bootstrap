@@ -3,10 +3,8 @@
 }
 
 
-
 .m-address {
     margin-bottom:0;
-
 }
 
 a:focus {
@@ -82,21 +80,12 @@ abbr[title], acronym[title] {
 }
 
 
-/*.modal-vertical-centered {
-    transform: translate(0, 30%) !important;
-    -ms-transform: translate(0, 30%) !important; *//* IE 9 *//*
-    -webkit-transform: translate(0, 30%) !important; *//* Safari and Chrome *//*
-}*/
-
 .m-navbar ul:first-child li {
-
     font-size: 18px;
     line-height: 5px;
-
 }
 
 .m-navbar ul:first-child li a {
-
     color: #777;
 }
 
@@ -315,13 +304,9 @@ div.no-bottom-margin {
     }
 
     .img-container {
+        max-width: 180px;
         margin-top: 7.5px;
         margin-bottom: 7.5px;
-    }
-
-    .img-container {
-        width: 100%;
-        max-width: 180px;
     }
 
     .m-jumbotron {

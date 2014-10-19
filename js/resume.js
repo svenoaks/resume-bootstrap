@@ -60,29 +60,6 @@
             }),
             noScrollAction = false;
 
-        menuItems.click(function (e) {
-            var href = $(this).attr("href"),
-                offsetTop = href === "#" ? 0 : $(href).offset().top - 6;
-            noScrollAction = true;
-            $("html, body").stop().animate({
-                scrollTop: offsetTop
-            }, {
-                duration: 300,
-                complete: function () {
-                    var fromTop = $(this).scrollTop();
-                    menuItems
-                        .parent().removeClass("active");
-                    menuItems.filter("[href=" + href + "]").parent().addClass("active");
-                    setTimeout(function () {
-                        lastId = href.slice(1, href.length);
-                        noScrollAction = false;
-                    }, 10);
-
-                }
-            });
-            e.preventDefault();
-        });
-
         $(window).scroll(determineScroll);
         $(window).resize(determineScroll);
 
@@ -108,12 +85,43 @@
                         .parent().removeClass("active")
                         .end().filter("[href=#" + id + "]").parent().addClass("active");
                 }
-                /*if (passed.length == menuItems.length) {
-                    var offsetTop = $(scrollItems[scrollItems.length - 1]).offset().top - 6;
-                    $("html, body").scrollTop(offsetTop);
-                }*/
             }
         }
+
+        function scrollToSection(section, e) {
+            var href = $(section).attr("href"),
+                offsetTop = href === "#" ? 0 : $(href).offset().top - 6;
+            noScrollAction = true;
+            $("html, body").stop().animate({
+                scrollTop: offsetTop
+            }, {
+                duration: 300,
+                complete: function () {
+                    var fromTop = $(section).scrollTop();
+                    menuItems
+                        .parent().removeClass("active");
+                    menuItems.filter("[href=" + href + "]").parent().addClass("active");
+                    setTimeout(function () {
+                        lastId = href.slice(1, href.length);
+                        noScrollAction = false;
+                    }, 10);
+
+                }
+            });
+            e.preventDefault();
+        };
+
+        menuItems.on("click", function (event) {
+            scrollToSection(this, event);
+        });
+
+        (function () {
+            $("body").click(function (event) {
+                if ($(".navbar-collapse").is(":visible") && $(".navbar-toggle").is(":visible")) {
+                    $('.navbar-collapse').collapse('toggle');
+                }
+            });
+        })();
 
     }
 
@@ -121,41 +129,6 @@
         var TIME_MS_FADEIN_BODY = 500;
 
         $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
-    }
-
-    function addMoveIcons() {
-        /*var pos_fixed_min = cssToNumeric($(".m-body").css("padding-top"));
-         $(window).scroll(function () {
-         var fromTop = $(this).scrollTop();
-         if (fromTop > pos_fixed_min) {
-         moveBlock($(".block-icon-save-print"), $(".block-icon-save-print-absolute"));
-         }
-         });*/
-    }
-
-    function moveBlock(from, to) {
-        (function () {
-
-            var tmp_from = from;
-            var tmp_to = to;
-            var pos = tmp_from.offset();
-            var temp = tmp_from.clone(true);
-
-            temp.css({
-                "visibility": "visible",
-                "position": "absolute",
-                "top": pos.top + "px",
-                "left": pos.left + "px"
-            });
-            temp.appendTo("body");
-            tmp_from.css("visibility", "hidden");
-
-            temp.animate(to.offset(), 500, function () {
-                tmp_to.css("visibility", "visible");
-                temp.stop(true);
-                temp.remove();
-            });
-        })();
     }
 
     function addSubmitListener() {
@@ -230,6 +203,7 @@
             $(".body-" + id).show();
         }
     }
+
     function addPrintListeners() {
         var mdReg = /col-md-\d+/;
         var lg = /col-lg-\d+/;
@@ -265,16 +239,17 @@
         window.onbeforeprint = beforePrint;
         window.onafterprint = afterPrint;
     }
-    function addIconListeners () {
+
+    function addIconListeners() {
         $(".icon-print").click(function () {
             window.print();
         });
     }
+
     $(document).ready(function () {
         fadeInBody();
         addNavbarFix();
         addNavbarScroll();
-        addMoveIcons();
         addSubmitListener();
         addPortfolioListener();
         addIconListeners();
