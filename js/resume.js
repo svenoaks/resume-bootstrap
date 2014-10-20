@@ -123,12 +123,17 @@
             if (navOpen()) {
                 var lastSectionClicked = this;
 
-                $('.navbar-collapse').collapse('toggle');
                 $(".navbar-collapse").on("hidden.bs.collapse", function () {
-                    scrollToSection(lastSectionClicked, null);
+                    setTimeout(function () {
+                        scrollToSection(lastSectionClicked, null);
+                    }, 200);
+
                 });
                 event.preventDefault();
                 event.stopPropagation();
+
+                $('.navbar-collapse').collapse('toggle');
+
             }
             else {
                 scrollToSection(this, event);
