@@ -11,7 +11,6 @@
 
     function navbarFixUnfix(pos_fixed_min) {
         var WIDTH_DESKTOP = "940px";
-        var WIDTH_FOR_FIX = "940px";
         var HEIGHT_NAVBAR = "62px";
 
         var pos = $(window).scrollTop();
@@ -21,7 +20,7 @@
             $(".row-nav").css({
                 "position": "fixed",
                 "top": "0",
-                "width": WIDTH_FOR_FIX
+                "width": WIDTH_DESKTOP
             });
             $("#aftermenuspace").css({
                 "height": HEIGHT_NAVBAR
@@ -97,7 +96,6 @@
             }, {
                 duration: 300,
                 complete: function () {
-                    var fromTop = $(section).scrollTop();
                     menuItems
                         .parent().removeClass("active");
                     menuItems.filter("[href=" + href + "]").parent().addClass("active");
@@ -108,21 +106,34 @@
 
                 }
             });
-            e.preventDefault();
+            if (e != undefined)
+                e.preventDefault();
         };
+        function navOpen() {
+            return $(".navbar-collapse").is(":visible") && $(".navbar-toggle").is(":visible");
+        }
 
-        menuItems.on("click", function (event) {
-            scrollToSection(this, event);
+        $('body').click(function () {
+            if (navOpen()) {
+                $('.navbar-collapse').collapse('toggle');
+            }
         });
 
-        (function () {
-            $("body").click(function (event) {
-                if ($(".navbar-collapse").is(":visible") && $(".navbar-toggle").is(":visible")) {
-                    $('.navbar-collapse').collapse('toggle');
-                }
-            });
-        })();
+        menuItems.on("click", function (event) {
+            if (navOpen()) {
+                var lastSectionClicked = this;
 
+                $('.navbar-collapse').collapse('toggle');
+                $(".navbar-collapse").on("hidden.bs.collapse", function () {
+                    scrollToSection(lastSectionClicked, null);
+                });
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            else {
+                scrollToSection(this, event);
+            }
+        });
     }
 
     function fadeInBody() {
