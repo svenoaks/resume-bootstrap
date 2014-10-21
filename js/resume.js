@@ -228,17 +228,20 @@
             mdDivs = $("[class*=col-md]").map(function () {
                 var classStr = $(this).attr("class");
                 var md = classStr.match(mdReg)[0];
-                var lg = md.replace("-md-", "-lg-");
-                return $(this).removeClass(md).addClass(lg);
+                //var lg = md.replace("-md-", "-lg-");
+                //return $(this).removeClass(md).addClass(lg).css("float", "none");
+                //return $(this).css("width", "100%");
             });
+
         };
         var afterPrint = function () {
-            /*mdDivs.each(function () {
-                var classStr = $(this).attr("class");
+            mdDivs.each(function () {
+        /*        var classStr = $(this).attr("class");
                 var lg = classStr.match(lgReg)[0];
                 var md = lg.replace("-lg-", "-md-");
-                $(this).removeClass(lg).addClass(md);
-            });*/
+                $(this).removeClass(lg).addClass(md);*/
+                //return $(this).css("width", "initial");
+            });
         };
 
         if (window.matchMedia) {

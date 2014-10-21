@@ -269,7 +269,7 @@ div.no-bottom-margin {
     border-top: 2px solid #428bca;
 }
 
-@media (max-width: 767px) {
+@media print, (max-width: 767px) {
     .m-body {
         padding-top: 0;
         padding-bottom: 0;
@@ -281,7 +281,7 @@ div.no-bottom-margin {
     }
 }
 
-@media (max-width: 991px) {
+@media print, (max-width: 991px) {
     #jumbotron-address {
         display:table;
         margin-right:auto;
@@ -528,3 +528,4 @@ div.no-bottom-margin {
         height:0 !important;
     }
 }
+
