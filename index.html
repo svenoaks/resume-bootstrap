@@ -180,7 +180,7 @@
         </ul>
         <p class="visible-print-block">Experience/proficiency with the following programming languages/technologies:
             Java, Android SDK/NDK, C++, C#, Visual Basic .NET, HTML5, CSS3, JavaScript, JQuery, Twitter Bootstrap, PHP,
-            MySQL, GitHub</p>
+            MySQL, Git, Linux</p>
     </div>
     <div id="div-progress-bars" class="hidden-print col-md-4 column-content-second column-content-padding">
         <h5 class="text-center header-skill">Java</h5>
@@ -231,7 +231,7 @@
                 <span class="sr-only">40% Complete (success)</span>
             </div>
         </div>
-        <p class="hidden-print">Additional proficiencies: VB.NET, JQuery, Twitter Bootstrap, WordPress, GitHub.</p>
+        <p class="hidden-print">Additional proficiencies: VB.NET, JQuery, Twitter Bootstrap, WordPress, Git, Linux.</p>
     </div>
 </section>
 <section id="experience" class="row row-content row-scroll">
@@ -450,17 +450,35 @@
                 <h4 class="modal-title" id="h-football">OfficeCFC</h4>
             </div>
             <div id="body-portfolio" class="modal-body">
-                <p class="body-musicspeed">Music Speed Changer</p>
+                <div class="body-musicspeed">
+                    <img class="center-block img-rounded" src="musicspeed-small.png">
+                    <p>Music Speed Changer is a popular tool for musicians - it is capable of
+                        independently modifying the pich and tempo of audio in real time, and looping sections of the track
+                        for practice. File output of the modified audio is also possible.</p>
+                    <p>The app involved developing a complete audio player with the Android
+                        SDK and NDK because low level access to the underlying byte stream was required to modify the audio.
+                        The app makes extensive use of multithreading, as the processing of the audio happens off the UI thread,
+                        playback and the file saving operation occur on separate threads and the processing and file writing
+                        involved in the file saving operation are further divided on separate threads. This translates to
+                        superior performance and usability.</p>
+                    <p>The app is more highly rated than it's peers, and growth in user base
+                        continues to increase.</p>
+                    <p class="text-center"><a class="text-center"
+                        href="https://play.google.com/store/apps/details?id=com.smp.musicspeed&hl=en">View the app
+                        in the Google Play Store</a></p>
+                    
+                </div>
+               
 
-                <p class="body-soundtouch">SoundToucbody-Android</p>
+                <div class="body-soundtouch">SoundToucbody-Android</div>
 
-                <p class="body-musicflow">Music Flow</p>
+                <div class="body-musicflow">Music Flow</div>
 
-                <p class="body-rotate">Pdf Rotate and Merge</p>
+                <div class="body-rotate">Pdf Rotate and Merge</div>
 
-                <p class="body-resume">Simple Résumé</p>
+                <div class="body-resume">Simple Résumé</div>
 
-                <p class="body-football">OfficeCFC</p>
+                <div class="body-football">OfficeCFC</div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

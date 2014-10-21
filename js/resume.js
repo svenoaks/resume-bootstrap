@@ -202,7 +202,7 @@
 
     function addPortfolioListener() {
         var portfolioHeadings = $("#modal-portfolio h4").hide(),
-            portfolioBody = $("#body-portfolio *").hide(),
+            portfolioBody = $("#body-portfolio div").hide(),
             SKIP_IDENTIFIER = 2;
 
         $('.img-portfolio').click(function () {
@@ -222,23 +222,23 @@
 
     function addPrintListeners() {
         var mdReg = /col-md-\d+/;
-        var lg = /col-lg-\d+/;
+        var lgReg = /col-lg-\d+/;
         var mdDivs;
         var beforePrint = function () {
             mdDivs = $("[class*=col-md]").map(function () {
                 var classStr = $(this).attr("class");
                 var md = classStr.match(mdReg)[0];
-                var xs = md.replace("-md-", "-lg-");
-                return $(this).removeClass(md).addClass(xs);
+                var lg = md.replace("-md-", "-lg-");
+                return $(this).removeClass(md).addClass(lg);
             });
         };
         var afterPrint = function () {
-            mdDivs.each(function () {
+            /*mdDivs.each(function () {
                 var classStr = $(this).attr("class");
-                var xs = classStr.match(lg)[0];
-                var md = xs.replace("-lg-", "-md-");
-                $(this).removeClass(xs).addClass(md);
-            });
+                var lg = classStr.match(lgReg)[0];
+                var md = lg.replace("-lg-", "-md-");
+                $(this).removeClass(lg).addClass(md);
+            });*/
         };
 
         if (window.matchMedia) {
