@@ -235,19 +235,19 @@
 
         };
         var afterPrint = function () {
-            mdDivs.each(function () {
+            //mdDivs.each(function () {
         /*        var classStr = $(this).attr("class");
                 var lg = classStr.match(lgReg)[0];
                 var md = lg.replace("-lg-", "-md-");
                 $(this).removeClass(lg).addClass(md);*/
                 //return $(this).css("width", "initial");
-            });
+            //});
         };
 
         if (window.matchMedia) {
-            var mediaQueryList = window.matchMedia('print');
+            var mediaQueryList = window.matchMedia("print");
             mediaQueryList.addListener(function (mql) {
-                if (mql.matches) {
+                if (mql.media == "print") {
                     beforePrint();
                 } else {
                     afterPrint();
