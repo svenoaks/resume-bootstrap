@@ -126,6 +126,7 @@
                 $(".navbar-collapse").on("hidden.bs.collapse", function () {
                     setTimeout(function () {
                         scrollToSection(lastSectionClicked, null);
+                        $(".navbar-collapse").off("hidden.bs.collapse");
                     }, 200);
 
                 });
