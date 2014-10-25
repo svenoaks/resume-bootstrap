@@ -7,7 +7,6 @@
     margin-bottom:10px;
 }
 
-
 .m-address {
     margin-bottom:0;
 }
@@ -120,12 +119,6 @@ abbr[title], acronym[title] {
 }
 
 .icon-social, .block-address a {
-    color: #777;
-    transition: color 0.3s ease-out;
-    webkit-transition: color 0.3s ease-out;
-}
-
-.icon-social, .block-address a:hover:focus {
     color: #777;
     transition: color 0.3s ease-out;
     webkit-transition: color 0.3s ease-out;
