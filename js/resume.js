@@ -1,7 +1,3 @@
-/**
- * Created by Steve on 8/24/14.
- */
-
 (function () {
     "use strict";
 
@@ -35,6 +31,7 @@
             });
         }
     }
+
 
     function addNavbarFix() {
         var pos_fixed_min = cssToNumeric($(".m-body").css("padding-top"));
@@ -119,14 +116,20 @@
             }
         });
 
+        /*$(".modal").on("shown.bs.modal", function() {
+         $('body').css('position','fixed');
+         })
+         .on("hidden.bs.modal", function() {
+         $('body').css('position','static');
+         });*/
+
         menuItems.on("click", function (event) {
             if (navOpen()) {
                 var lastSectionClicked = this;
 
-                $(".navbar-collapse").on("hidden.bs.collapse", function () {
+                $(".navbar-collapse").one("hidden.bs.collapse", function () {
                     setTimeout(function () {
                         scrollToSection(lastSectionClicked, null);
-                        $(".navbar-collapse").off("hidden.bs.collapse");
                     }, 200);
 
                 });
@@ -162,7 +165,7 @@
             $inputs.prop("disabled", true);
 
             request = $.ajax({
-                url: "../mail.php",
+                url: "xyz.php",
                 type: "post",
                 data: serializedData
             });
@@ -237,11 +240,11 @@
         };
         var afterPrint = function () {
             //mdDivs.each(function () {
-        /*        var classStr = $(this).attr("class");
-                var lg = classStr.match(lgReg)[0];
-                var md = lg.replace("-lg-", "-md-");
-                $(this).removeClass(lg).addClass(md);*/
-                //return $(this).css("width", "initial");
+            /*        var classStr = $(this).attr("class");
+             var lg = classStr.match(lgReg)[0];
+             var md = lg.replace("-lg-", "-md-");
+             $(this).removeClass(lg).addClass(md);*/
+            //return $(this).css("width", "initial");
             //});
         };
 
@@ -274,8 +277,15 @@
         addPortfolioListener();
         addIconListeners();
         addPrintListeners();
+
+        (function () {
+            var userAgent = navigator.userAgent.toLowerCase();
+            var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/)
+            if (isSafari) {
+                var elem = $(".block-icons .icon-print");
+                elem[0].style.setProperty('display', 'none', 'important');
+            }
+        })();
     });
 })();
-
-
 
