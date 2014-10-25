@@ -25,11 +25,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body class="m-body">
-<div class="div-side-buttons">
-
-</div>
 <section class="container m-container">
 <section class="row bottom-shadow row-nav">
     <div class="col-xs-12 col-nav">
@@ -57,7 +53,7 @@
     </div>
 </section>
 <div class="row" id="aftermenuspace"></div>
-<section class="row row-top row-content">
+<section id="row-info" class="row row-content">
     <div class="hidden-print col-md-3 col-img">
         <img id="pic" title="Steve Myers" src="steve-small.png" alt="../Steve.JPG"
              class="img-thumbnail center-block">
@@ -87,7 +83,7 @@
                 </span>
                         </a>
                         <a id="icon-android" class="icon-social"
-                           href="https://play.google.com/store/apps/developer?id=Single%20Minded%20Productions&hl=en"
+                           href="https://play.google.com/store/apps/developer?id=Single%20Minded%20Productions&amp;hl=en"
                            title="Google Play">
                 <span class="fa-stack">
                     <i class="fa fa-circle fa-stack-2x"></i>
@@ -158,19 +154,23 @@
         </h3>
     </div>
     <div class="col-md-5 column-content-first column-content-padding">
-            <p>Immediate proficiency with many industry standard programming languages and technologies, including
-                mobile and front-end
-                and back-end web technologies.
-            </p>
-            <p>Ability to learn any programming language, library or framework quickly, independently becoming
-                proficient in a matter of days.
-            </p>
-            <p>Able to transfer acquired knowledge into working solutions in collaboration with
-                the client with little fanfare, while following best practice coding guidelines and
-                producing maintainable
-                code.
-            </p>
-            <p>Ability to effectively communicate with other professionals.</p>
+        <p>Immediate proficiency with many industry standard programming languages and technologies, including
+            mobile and front-end
+            and back-end web technologies.
+        </p>
+
+        <p>Ability to learn any programming language, library or framework quickly, independently becoming
+            proficient in a matter of days.
+        </p>
+
+        <p>Able to transfer acquired knowledge into working solutions in collaboration with
+            the client with little fanfare, while following best practice coding guidelines and
+            producing maintainable
+            code.
+        </p>
+
+        <p>Ability to effectively communicate with other professionals.</p>
+
         <p class="visible-print-block">Experience/proficiency with the following programming languages/technologies:
             Java, Android SDK/NDK, C++, C#, Visual Basic .NET, HTML5, CSS3, JavaScript, JQuery, Bootstrap, PHP,
             MySQL, Git, Linux</p>
@@ -316,7 +316,9 @@
         </h3>
     </div>
     <div class="col-md-9 column-content-first column-content-padding">
-        <p class="visible-print-block">Please view my portfolio of work online at <u>singlemindedproductions.net/resume</u></p>
+        <p class="visible-print-block">Please view my portfolio of work online at
+            <u>singlemindedproductions.net/resume</u></p>
+
         <div class="hidden-print row row-portfolio">
             <div class="col-xs-6 col-sm-4 column-portfolio-item">
                 <div class="center-block img-container">
@@ -430,7 +432,7 @@
     </div>
 </div>
 <div class="modal fade modal-vertical-centered" id="modal-portfolio" tabindex="-1" role="dialog"
-     aria-labelledby="label-portfolio" aria-hidden="true">
+     aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -446,75 +448,108 @@
             <div id="body-portfolio" class="modal-body">
                 <div class="body-musicspeed">
                     <img class="center-block img-rounded" src="musicspeed-small.png">
+
                     <p>Music Speed Changer is a popular tool for musicians - it is capable of
-                        independently modifying the pich and tempo of audio in real time, and looping sections of the track
+                        independently modifying the pich and tempo of audio in real time, and looping sections of the
+                        track
                         for practice. File output of the modified audio is also possible.</p>
+
                     <p>The app involved developing a complete audio player with the Android
-                        SDK and NDK because low level access to the underlying byte stream was required to modify the audio.</p>
-                        <p>The app makes extensive use of multithreading, as the processing of the audio happens off the UI thread,
-                        playback and the file saving operation occur on separate threads and the processing and file writing
-                        involved in the file saving operation are further divided on separate threads. This translates to
+                        SDK and NDK because low level access to the underlying byte stream was required to modify the
+                        audio.</p>
+
+                    <p>The app makes extensive use of multithreading, as the processing of the audio happens off the UI
+                        thread,
+                        playback and the file saving operation occur on separate threads and the processing and file
+                        writing
+                        involved in the file saving operation are further divided on separate threads. This translates
+                        to
                         superior performance and usability.</p>
+
                     <p>The app is more highly rated than it's peers, and growth of the user base
                         continues to increase.</p>
+
                     <p class="text-center"><a class="text-center"
-                        href="https://play.google.com/store/apps/details?id=com.smp.musicspeed&hl=en">View the app
+                                              href="https://play.google.com/store/apps/details?id=com.smp.musicspeed&amp;hl=en">View
+                        the app
                         in the Google Play Store</a></p>
                 </div>
                 <div class="body-soundtouch">
                     <img class="center-block img-rounded" src="code.png">
+
                     <p>SoundTouch-Android is an Android wrapper for a C++ audio processing library.</p>
+
                     <p>As well as wrapping the low level functions with JNI, the library provides high level
                         functionality for the Android platform, making it very easy for other developers to create apps
                         involving pitch shifting or time stretching of audio files. The altered audio can be played
                         back in real time or saved to an AAC encoded audio file.</p>
+
                     <p class="text-center">
                         <a class="text-center" href="https://github.com/svenoaks/SoundTouch-Android">View the library
-                        on GitHub</a></p>
+                            on GitHub</a></p>
                 </div>
 
                 <div class="body-musicflow">
                     <img class="center-block img-rounded" src="flow.png">
+
                     <p>Music Flow is an app for music lovers that delivers up to the minute information on the music
-                    the user is listening to. When songs are played on many popular music players, they are listed in the
-                    "flow". The user can easily view the lyrics of the song, watch a video, get concert dates and information
-                    about the artist. The app can also identify music from the microphone, similar to Shazam.</p>
+                        the user is listening to. When songs are played on many popular music players, they are listed
+                        in the
+                        "flow". The user can easily view the lyrics of the song, watch a video, get concert dates and
+                        information
+                        about the artist. The app can also identify music from the microphone, similar to Shazam.</p>
+
                     <p>The app relies heavily receiving JSON data from various web API's. Many of the layouts
-                    are quite complex and result in a high visual appeal.</p>
+                        are quite complex and result in a high visual appeal.</p>
+
                     <p class="text-center"><a class="text-center"
-                                              href="https://play.google.com/store/apps/details?id=com.smp.funwithmusic&hl=en">View the app
+                                              href="https://play.google.com/store/apps/details?id=com.smp.funwithmusic&amp;hl=en">View
+                        the app
                         in the Google Play Store</a></p>
                 </div>
 
 
                 <div class="body-rotate">
                     <img class="center-block img-rounded" src="rotate.png">
-                    <p>Pdf Rotate and Merge solves a common problem with generating Pdf's. Many times Pdf's will be generated
-                    at the wrong orientation and free tools such as Adobe Reader are incapable of saving Pdf's with an adjusted
-                    rotation angle.</p>
+
+                    <p>Pdf Rotate and Merge solves a common problem with generating Pdf's. Many times Pdf's will be
+                        generated
+                        at the wrong orientation and free tools such as Adobe Reader are incapable of saving Pdf's with
+                        an adjusted
+                        rotation angle.</p>
+
                     <p>For many businesses, sending a Pdf to a client with the wrong orientation may
-                    appear unprofessional. Pdf Rotate and Merge solves this problem and is also capable of merging
-                    multiple Pdf's into a single Pdf file.</p>
+                        appear unprofessional. Pdf Rotate and Merge solves this problem and is also capable of merging
+                        multiple Pdf's into a single Pdf file.</p>
+
                     <p class="text-center"><a class="text-center"
-                                              href="https://play.google.com/store/apps/details?id=com.smp.pdfrotator.free&hl=en">View the app
+                                              href="https://play.google.com/store/apps/details?id=com.smp.pdfrotator.free&amp;hl=en">View
+                        the app
                         in the Google Play Store</a></p>
                 </div>
 
                 <div class="body-resume">
                     <img class="center-block img-rounded" src="resume.png">
+
                     <p>This website is based on a template developed for the theme market. It is a simple and clean
-                    responsive online résumé.</p>
+                        responsive online résumé.</p>
+
                     <p>The template was hand coded, utilizing the latest in responsive web design.</p>
                 </div>
 
                 <div class="body-football">
                     <img class="center-block img-rounded" src="football.png">
+
                     <p>OfficeCFC is a site used to organize the office football ball. By collecting form data
-                    and generating reports from the database, it is a great improvement over manual spreadsheet
-                    entry.</p>
-                    <p>The site was hand coded with the latest in responsive design, and utilizes a PHP/MySQL backend.</p>
+                        and generating reports from the database, it is a great improvement over manual spreadsheet
+                        entry.</p>
+
+                    <p>The site was hand coded with the latest in responsive design, and utilizes a PHP/MySQL
+                        backend.</p>
+
                     <p class="text-center"><a class="text-center"
-                                              href="http://singlemindedproductions.net/football/news.php">View the website</a></p>
+                                              href="http://singlemindedproductions.net/football/news.php">View the
+                        website</a></p>
                 </div>
             </div>
             <div class="modal-footer">

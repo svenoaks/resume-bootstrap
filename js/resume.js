@@ -279,7 +279,6 @@
         addPrintListeners();
 
         (function () {
-            var userAgent = navigator.userAgent.toLowerCase();
             var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/)
             if (isSafari) {
                 var elem = $(".block-icons .icon-print");

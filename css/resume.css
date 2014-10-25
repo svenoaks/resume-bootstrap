@@ -151,7 +151,7 @@ abbr[title], acronym[title] {
     box-shadow: 0 1px 0.5px 0px #888;
 }
 
-.row-top {
+#row-info {
     margin-top: 20px;
 }
 
@@ -187,7 +187,7 @@ textarea {
     margin-left: 20px;
 }
 
-.row-top {
+#row-info {
     margin-top: 30px;
 }
 
@@ -321,7 +321,7 @@ div.no-bottom-margin {
         margin-top: 15px;
     }
 
-    .row-top {
+    #row-info {
         margin-top: 35px;
     }
 
@@ -393,7 +393,7 @@ div.no-bottom-margin {
         padding-bottom: 25px;
     }
 
-    .row-top {
+    #row-info {
         margin-bottom: 30px;
     }
 
