@@ -47,8 +47,9 @@ textarea {
 #row-info {
     margin-top: 30px;
 }
-#pic {
-    max-width:160px;
+#portrait {
+    max-width:150px;
+    max-height:150px;
 }
 .block-address {
     margin-top:25px;
