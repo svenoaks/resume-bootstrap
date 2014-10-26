@@ -1,38 +1,19 @@
 (function () {
     "use strict";
 
-    function cssToNumeric(cssStr) {
-        return cssStr.replace(/[^-\d\.]/g, '');
-    }
-
-    function navbarFixUnfix(pos_fixed_min) {
-        var WIDTH_DESKTOP = "940px";
-        var HEIGHT_NAVBAR = "62px";
-
-        var pos = $(window).scrollTop();
-        var cur_width = $(".container").css('width');
-
-        if (pos > pos_fixed_min && cur_width == WIDTH_DESKTOP) {
-            $(".row-nav").css({
-                "position": "fixed",
-                "top": "0",
-                "width": WIDTH_DESKTOP
-            });
-            $("#aftermenuspace").css({
-                "height": HEIGHT_NAVBAR
-            });
-        } else {
-            $(".row-nav").css({
-                "position": "static",
-                "width": "initial"
-            });
-            $("#aftermenuspace").css({
-                "height": "0"
-            });
-        }
-    }
+    $(document).ready(function () {
+        fadeInBody();
+        addNavbarFix();
+        addNavbarScroll();
+        addSubmitListener();
+        addPortfolioListener();
+        addIconListeners();
+        disablePrintButtonSafari();
+    });
 
 
+    //This function fixes the Navbar at the top of the window when it scrolls off the screen when the desktop layout
+    //is active.
     function addNavbarFix() {
         var pos_fixed_min = cssToNumeric($(".m-body").css("padding-top"));
 
@@ -42,8 +23,37 @@
         $(window).resize(function () {
             navbarFixUnfix(pos_fixed_min);
         });
+
+        function navbarFixUnfix(pos_fixed_min) {
+            var WIDTH_DESKTOP = "940px";
+            var HEIGHT_NAVBAR = "62px";
+
+            var pos = $(window).scrollTop();
+            var cur_width = $(".container").css('width');
+
+            if (pos > pos_fixed_min && cur_width == WIDTH_DESKTOP) {
+                $(".row-nav").css({
+                    "position": "fixed",
+                    "top": "0",
+                    "width": WIDTH_DESKTOP
+                });
+                $("#aftermenuspace").css({
+                    "height": HEIGHT_NAVBAR
+                });
+            } else {
+                $(".row-nav").css({
+                    "position": "static",
+                    "width": "initial"
+                });
+                $("#aftermenuspace").css({
+                    "height": "0"
+                });
+            }
+        }
     }
 
+
+    //This function handles the scrolling of the view as it relates to the Navbar.
     function addNavbarScroll() {
         var lastId,
             topMenu = $(".m-navbar-nav"),
@@ -116,13 +126,6 @@
             }
         });
 
-        /*$(".modal").on("shown.bs.modal", function() {
-         $('body').css('position','fixed');
-         })
-         .on("hidden.bs.modal", function() {
-         $('body').css('position','static');
-         });*/
-
         menuItems.on("click", function (event) {
             if (navOpen()) {
                 var lastSectionClicked = this;
@@ -145,12 +148,14 @@
         });
     }
 
+    //This function fades in the page when loaded.
     function fadeInBody() {
         var TIME_MS_FADEIN_BODY = 500;
 
         $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
     }
 
+    //Function to handle the contact form submittal.
     function addSubmitListener() {
         var request;
         $("#form-submit").submit(function (event) {
@@ -204,6 +209,7 @@
         }
     }
 
+    //This function makes the correct text visible when the Portfolio items are clicked.
     function addPortfolioListener() {
         var portfolioHeadings = $("#modal-portfolio h4").hide(),
             portfolioBody = $("#body-portfolio div").hide(),
@@ -224,67 +230,24 @@
         }
     }
 
-    function addPrintListeners() {
-        var mdReg = /col-md-\d+/;
-        var lgReg = /col-lg-\d+/;
-        var mdDivs;
-        var beforePrint = function () {
-            mdDivs = $("[class*=col-md]").map(function () {
-                var classStr = $(this).attr("class");
-                var md = classStr.match(mdReg)[0];
-                //var lg = md.replace("-md-", "-lg-");
-                //return $(this).removeClass(md).addClass(lg).css("float", "none");
-                //return $(this).css("width", "100%");
-            });
-
-        };
-        var afterPrint = function () {
-            //mdDivs.each(function () {
-            /*        var classStr = $(this).attr("class");
-             var lg = classStr.match(lgReg)[0];
-             var md = lg.replace("-lg-", "-md-");
-             $(this).removeClass(lg).addClass(md);*/
-            //return $(this).css("width", "initial");
-            //});
-        };
-
-        if (window.matchMedia) {
-            var mediaQueryList = window.matchMedia("print");
-            mediaQueryList.addListener(function (mql) {
-                if (mql.media == "print") {
-                    beforePrint();
-                } else {
-                    afterPrint();
-                }
-            });
-        }
-
-        window.onbeforeprint = beforePrint;
-        window.onafterprint = afterPrint;
-    }
-
+    //This function prints the window when the print button is clicked.
     function addIconListeners() {
         $(".icon-print").click(function () {
             window.print();
         });
     }
 
-    $(document).ready(function () {
-        fadeInBody();
-        addNavbarFix();
-        addNavbarScroll();
-        addSubmitListener();
-        addPortfolioListener();
-        addIconListeners();
-        addPrintListeners();
+    //This function disables the print button for Safari browsers since it is problematic.
+    function disablePrintButtonSafari() {
+        var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/)
+        if (isSafari) {
+            var elem = $(".block-icons .icon-print");
+            elem[0].style.setProperty('display', 'none', 'important');
+        }
+    }
 
-        (function () {
-            var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/)
-            if (isSafari) {
-                var elem = $(".block-icons .icon-print");
-                elem[0].style.setProperty('display', 'none', 'important');
-            }
-        })();
-    });
+    function cssToNumeric(cssStr) {
+        return cssStr.replace(/[^-\d\.]/g, '');
+    }
 })();
 
