@@ -28,18 +28,21 @@ textarea {
 #expertise ul {
     padding-left:15px;
 }
-#icon-android:hover {
-    color:#96c200;
+
+/*These are the hover colors for the social icons. Change these to suit your icons.*/
+#icon-facebook:hover {
+    color:#39579a;
+}
+#icon-linkedin:hover {
+    color:#1573ba;
+}
+#icon-twitter:hover {
+    color:#50abf1;
 }
 #icon-google-plus:hover {
     color:#df4a31;
 }
-#icon-github:hover {
-    color:#513c7b;
-}
-#icon-stack-overflow:hover {
-    color:#ff8a00;
-}
+
 #jumbotron-name {
     padding:0;
     margin-bottom:0;
