@@ -5,10 +5,10 @@
 var COLOR_ICON_GRAY = "#777";
 var COLOR_LINK = "#428bca";
 
-var TIME_MS_ICON_ANIMATE = 100;
+var TIME_MS_ICON_ANIMATE = 300;
 var TIME_MS_FADEIN_BODY = 500;
 
-var WIDTH_MIN_FIX = "940px";
+var WIDTH_DESKTOP = "940px";
 var WIDTH_FOR_FIX = "936px";
 
 var HEIGHT_NAVBAR = "50px";
@@ -21,7 +21,7 @@ function navbarFixUnfix(pos_fixed_min) {
     var pos = $(window).scrollTop();
     var cur_width = $(".container").css('width');
 
-    if (pos > pos_fixed_min && cur_width == WIDTH_MIN_FIX) {
+    if (pos > pos_fixed_min && cur_width == WIDTH_DESKTOP) {
         $(".row-nav").css({
             "position": "fixed",
             "top":    "0",
@@ -32,7 +32,7 @@ function navbarFixUnfix(pos_fixed_min) {
         });
     } else {
         $(".row-nav").css({
-            "position": "initial",
+            "position": "static",
             "width":    "initial"
         });
         $("#aftermenuspace").css({
@@ -44,20 +44,21 @@ function navbarFixUnfix(pos_fixed_min) {
 $( document ).ready(function() {
 
     $(".js .container").fadeIn(TIME_MS_FADEIN_BODY);
-
-    $(".icon-social, .m-address a").hover(
-        function() {
-            $(this)
-                .clearQueue()
-                .css('color',COLOR_ICON_GRAY)
-                .animate({'color': COLOR_LINK}, TIME_MS_ICON_ANIMATE);
-        },
-        function() {
-            $(this)
-                .animate({'color': COLOR_ICON_GRAY}, TIME_MS_ICON_ANIMATE);
-        }
-    );
-
+    /*var cur_width = $(".container").css('width');
+    if (cur_width == WIDTH_DESKTOP) {
+        $(".icon-social, .m-address a").hover(
+            function() {
+                $(this)
+                    .clearQueue()
+                    .css('color',COLOR_ICON_GRAY)
+                    .animate({'color': COLOR_LINK}, TIME_MS_ICON_ANIMATE);
+            },
+            function() {
+                $(this)
+                    .animate({'color': COLOR_ICON_GRAY}, TIME_MS_ICON_ANIMATE);
+            }
+        );
+    }*/
     var pos_fixed_min = cssToNumeric($(".m-body").css("padding-top"));
 
     $(window).scroll(function() {
