@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b6a686a4-2e6a-4e37-9780-17cfcaa53bac" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" afterPath="$PROJECT_DIR$/js/jquery.scrollTo.min.js" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+>>>>>>> FETCH_HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="resume.iws" />
@@ -17,7 +24,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -28,6 +35,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="resume.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/resume.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,10 +65,44 @@
               <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
 >>>>>>> FETCH_HEAD
               <folding />
+=======
+      <file leaf-file-name="resume.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/resume.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2039" max-vertical-offset="3285">
+              <caret line="147" column="27" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
+              <folding>
+                <element signature="e#3839#4011#0" expanded="false" />
+                <element signature="e#4012#5043#0" expanded="false" />
+                <element signature="e#5044#6242#0" expanded="false" />
+                <element signature="e#6243#7307#0" expanded="false" />
+                <element signature="e#7308#8894#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="resume.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/resume.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="690">
+              <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+              <folding>
+                <element signature="e#440#1574#0" expanded="false" />
+                <element signature="e#1691#4818#0" expanded="false" />
+                <element signature="e#4897#5001#0" expanded="false" />
+                <element signature="e#5089#6636#0" expanded="false" />
+                <element signature="e#6763#7334#0" expanded="false" />
+                <element signature="e#7440#7532#0" expanded="false" />
+                <element signature="e#7665#7910#0" expanded="false" />
+                <element signature="e#7946#8001#0" expanded="false" />
+              </folding>
+>>>>>>> FETCH_HEAD
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="resume.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/resume.html">
@@ -74,6 +116,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.2282507" vertical-offset="4871" max-vertical-offset="6030">
               <caret line="341" column="47" selection-start-line="341" selection-start-column="47" selection-end-line="341" selection-end-column="47" />
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33277592" vertical-offset="5077" max-vertical-offset="8550">
+              <caret line="365" column="54" selection-start-line="365" selection-start-column="54" selection-end-line="365" selection-end-column="54" />
+>>>>>>> FETCH_HEAD
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -82,6 +131,9 @@
                 <element signature="n#style#0;n#div#0;n#div#4;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#5;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
             </state>
           </provider>
@@ -100,8 +152,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/resume.html" />
         <option value="$PROJECT_DIR$/css/starter-template.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/js/resume.js" />
         <option value="$PROJECT_DIR$/css/resume.css" />
         <option value="$PROJECT_DIR$/html/resume.html" />
@@ -116,6 +168,21 @@
     <option name="x" value="952" />
 >>>>>>> FETCH_HEAD
     <option name="y" value="22" />
+=======
+        <option value="$PROJECT_DIR$/mail.php" />
+        <option value="$PROJECT_DIR$/html/resume.html" />
+        <option value="$PROJECT_DIR$/resume.html" />
+        <option value="$PROJECT_DIR$/js/resume.js" />
+        <option value="$PROJECT_DIR$/css/resume.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP from XAMPP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="293" />
+    <option name="y" value="32" />
+>>>>>>> FETCH_HEAD
     <option name="width" value="1608" />
     <option name="height" value="1343" />
   </component>
@@ -126,7 +193,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -145,6 +212,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,6 +231,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="resume" />
@@ -191,22 +260,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+>>>>>>> FETCH_HEAD
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Code/Laravel/classifieds/laravel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -215,15 +285,18 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.resume.html">
-    <configuration default="false" name="resume.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/resume/resume.html">
+    <configuration default="false" name="resume.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/resume/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
@@ -280,6 +353,31 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+=======
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
+>>>>>>> FETCH_HEAD
       <method />
     </configuration>
     <list size="1">
@@ -399,15 +497,19 @@
       <updated>1410033882532</updated>
     </task>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <task id="LOCAL-00017" summary="section active">
       <created>1410230470678</created>
       <updated>1410230470678</updated>
 =======
+=======
+>>>>>>> FETCH_HEAD
     <task id="LOCAL-00017" summary="contact">
       <created>1410922353857</created>
       <option name="number" value="00017" />
       <option name="project" value="LOCAL" />
       <updated>1410922353857</updated>
+<<<<<<< HEAD
 >>>>>>> FETCH_HEAD
     </task>
     <option name="localTasksCounter" value="18" />
@@ -419,23 +521,457 @@
 =======
     <frame x="952" y="22" width="1608" height="1343" extended-state="0" />
 >>>>>>> FETCH_HEAD
+=======
+    </task>
+    <task id="LOCAL-00018" summary="contact">
+      <created>1411095715917</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1411095715917</updated>
+    </task>
+    <task id="LOCAL-00019" summary="scroll nav">
+      <created>1411183096000</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1411183096000</updated>
+    </task>
+    <task id="LOCAL-00020" summary="scroll nav">
+      <created>1411238081663</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1411238081663</updated>
+    </task>
+    <task id="LOCAL-00021" summary="scroll nav">
+      <created>1411254348017</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1411254348017</updated>
+    </task>
+    <task id="LOCAL-00022" summary="scroll nav">
+      <created>1411257155666</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1411257155666</updated>
+    </task>
+    <task id="LOCAL-00023" summary="color">
+      <created>1411261335086</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1411261335086</updated>
+    </task>
+    <task id="LOCAL-00024" summary="color">
+      <created>1411261862289</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1411261862289</updated>
+    </task>
+    <task id="LOCAL-00025" summary="color">
+      <created>1411273468218</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1411273468218</updated>
+    </task>
+    <task id="LOCAL-00026" summary="img-container">
+      <created>1411275066460</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1411275066460</updated>
+    </task>
+    <task id="LOCAL-00027" summary="img-container">
+      <created>1411275491872</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1411275491872</updated>
+    </task>
+    <task id="LOCAL-00028" summary="img-container">
+      <created>1411315825940</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1411315825940</updated>
+    </task>
+    <task id="LOCAL-00029" summary="img-container">
+      <created>1411322779318</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1411322779318</updated>
+    </task>
+    <task id="LOCAL-00030" summary="img-container">
+      <created>1411338160090</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1411338160090</updated>
+    </task>
+    <task id="LOCAL-00031" summary="address">
+      <created>1411344475338</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1411344475338</updated>
+    </task>
+    <task id="LOCAL-00032" summary="submit">
+      <created>1411353804861</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1411353804861</updated>
+    </task>
+    <task id="LOCAL-00033" summary="submit">
+      <created>1411354930732</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1411354930732</updated>
+    </task>
+    <task id="LOCAL-00034" summary="submit">
+      <created>1411384299221</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1411384299222</updated>
+    </task>
+    <task id="LOCAL-00035" summary="submit">
+      <created>1411943356994</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1411943356994</updated>
+    </task>
+    <task id="LOCAL-00036" summary="scroll">
+      <created>1412128511614</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1412128511614</updated>
+    </task>
+    <task id="LOCAL-00037" summary="scroll">
+      <created>1412129234851</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1412129234851</updated>
+    </task>
+    <task id="LOCAL-00038" summary="scroll">
+      <created>1412132642540</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1412132642540</updated>
+    </task>
+    <task id="LOCAL-00039" summary="scroll">
+      <created>1412132973285</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1412132973285</updated>
+    </task>
+    <task id="LOCAL-00040" summary="active">
+      <created>1412303138400</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1412303138400</updated>
+    </task>
+    <task id="LOCAL-00041" summary="regex">
+      <created>1412553349075</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1412553349075</updated>
+    </task>
+    <task id="LOCAL-00042" summary="regex">
+      <created>1412820789232</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1412820789232</updated>
+    </task>
+    <task id="LOCAL-00043" summary="move address">
+      <created>1413035764514</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1413035764514</updated>
+    </task>
+    <task id="LOCAL-00044" summary="circles">
+      <created>1413059673349</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1413059673349</updated>
+    </task>
+    <task id="LOCAL-00045" summary="contact">
+      <created>1413069414328</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1413069414328</updated>
+    </task>
+    <task id="LOCAL-00046" summary="contact">
+      <created>1413069808396</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1413069808396</updated>
+    </task>
+    <task id="LOCAL-00047" summary="contact">
+      <created>1413071380057</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1413071380057</updated>
+    </task>
+    <task id="LOCAL-00048" summary="address">
+      <created>1413072988228</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1413072988228</updated>
+    </task>
+    <task id="LOCAL-00049" summary="address">
+      <created>1413084943117</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1413084943117</updated>
+    </task>
+    <task id="LOCAL-00050" summary="address">
+      <created>1413128397544</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1413128397544</updated>
+    </task>
+    <task id="LOCAL-00051" summary="address">
+      <created>1413131544675</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1413131544675</updated>
+    </task>
+    <task id="LOCAL-00052" summary="some text">
+      <created>1413140689998</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1413140689998</updated>
+    </task>
+    <task id="LOCAL-00053" summary="bars">
+      <created>1413159252965</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1413159252965</updated>
+    </task>
+    <task id="LOCAL-00054" summary="bars">
+      <created>1413164453986</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1413164453986</updated>
+    </task>
+    <task id="LOCAL-00055" summary="bars">
+      <created>1413165178830</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1413165178830</updated>
+    </task>
+    <task id="LOCAL-00056" summary="bars">
+      <created>1413167111739</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1413167111739</updated>
+    </task>
+    <task id="LOCAL-00057" summary="bars">
+      <created>1413246818940</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1413246818940</updated>
+    </task>
+    <task id="LOCAL-00058" summary="bars">
+      <created>1413256401813</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1413256401814</updated>
+    </task>
+    <task id="LOCAL-00059" summary="bars">
+      <created>1413338452903</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1413338452903</updated>
+    </task>
+    <task id="LOCAL-00060" summary="port">
+      <created>1413424655430</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1413424655430</updated>
+    </task>
+    <task id="LOCAL-00061" summary="port">
+      <created>1413424950185</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1413424950185</updated>
+    </task>
+    <task id="LOCAL-00062" summary="port">
+      <created>1413427088822</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1413427088822</updated>
+    </task>
+    <task id="LOCAL-00063" summary="port">
+      <created>1413512507942</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1413512507942</updated>
+    </task>
+    <task id="LOCAL-00064" summary="port">
+      <created>1413513721665</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1413513721665</updated>
+    </task>
+    <task id="LOCAL-00065" summary="port">
+      <created>1413584009158</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1413584009158</updated>
+    </task>
+    <task id="LOCAL-00066" summary="port">
+      <created>1413743238357</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1413743238358</updated>
+    </task>
+    <task id="LOCAL-00067" summary="index.html">
+      <created>1413761193315</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1413761193316</updated>
+    </task>
+    <task id="LOCAL-00068" summary="close menu xs">
+      <created>1413768997537</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1413768997538</updated>
+    </task>
+    <task id="LOCAL-00069" summary="close menu xs">
+      <created>1413770739636</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1413770739636</updated>
+    </task>
+    <task id="LOCAL-00070" summary="close menu xs">
+      <created>1413857411579</created>
+      <option name="number" value="00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1413857411579</updated>
+    </task>
+    <task id="LOCAL-00071" summary="close menu xs">
+      <created>1413860667754</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1413860667754</updated>
+    </task>
+    <task id="LOCAL-00072" summary="close menu xs">
+      <created>1413945732382</created>
+      <option name="number" value="00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1413945732382</updated>
+    </task>
+    <task id="LOCAL-00073" summary="close menu xs">
+      <created>1414029536549</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1414029536549</updated>
+    </task>
+    <task id="LOCAL-00074" summary="close menu xs">
+      <created>1414113960184</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1414113960184</updated>
+    </task>
+    <task id="LOCAL-00075" summary="close menu xs">
+      <created>1414118091537</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1414118091537</updated>
+    </task>
+    <task id="LOCAL-00076" summary="print">
+      <created>1414253664642</created>
+      <option name="number" value="00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1414253664642</updated>
+    </task>
+    <task id="LOCAL-00077" summary="print">
+      <created>1414258763092</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1414258763093</updated>
+    </task>
+    <task id="LOCAL-00078" summary="start cleaning">
+      <created>1414261427979</created>
+      <option name="number" value="00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1414261427979</updated>
+    </task>
+    <task id="LOCAL-00079" summary="start cleaning">
+      <created>1414270199240</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1414270199240</updated>
+    </task>
+    <task id="LOCAL-00080" summary="clean">
+      <created>1414343160776</created>
+      <option name="number" value="00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1414343160777</updated>
+    </task>
+    <task id="LOCAL-00081" summary="clean">
+      <created>1414364075588</created>
+      <option name="number" value="00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1414364075588</updated>
+    </task>
+    <task id="LOCAL-00082" summary="clean">
+      <created>1414366612305</created>
+      <option name="number" value="00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1414366612305</updated>
+    </task>
+    <task id="LOCAL-00083" summary="clean">
+      <created>1414366642685</created>
+      <option name="number" value="00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1414366642685</updated>
+    </task>
+    <task id="LOCAL-00084" summary="clean">
+      <created>1414370292541</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1414370292541</updated>
+    </task>
+    <task id="LOCAL-00085" summary="clean">
+      <created>1415104257683</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1415104257683</updated>
+    </task>
+    <task id="LOCAL-00086" summary="g+">
+      <created>1415578795250</created>
+      <option name="number" value="00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1415578795250</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="293" y="32" width="1608" height="1343" extended-state="0" />
+>>>>>>> FETCH_HEAD
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.120094195" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13179572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21641791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23196517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3155416" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> FETCH_HEAD
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+=======
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+>>>>>>> FETCH_HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
 =======
@@ -463,15 +999,12 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="test laptop" />
-    <MESSAGE value="bl" />
     <MESSAGE value="nav" />
     <MESSAGE value="need col space" />
     <MESSAGE value="col space" />
-    <MESSAGE value="clean" />
     <MESSAGE value="meh" />
-    <MESSAGE value="port" />
     <MESSAGE value="section active" />
+<<<<<<< HEAD
     <MESSAGE value="contact" />
     <option name="LAST_COMMIT_MESSAGE" value="contact" />
   </component>
@@ -511,25 +1044,119 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/resume.js">
+=======
+    <MESSAGE value="scroll nav" />
+    <MESSAGE value="color" />
+    <MESSAGE value="img-container" />
+    <MESSAGE value="submit" />
+    <MESSAGE value="scroll" />
+    <MESSAGE value="active" />
+    <MESSAGE value="regex" />
+    <MESSAGE value="move address" />
+    <MESSAGE value="circles" />
+    <MESSAGE value="contact" />
+    <MESSAGE value="address" />
+    <MESSAGE value="some text" />
+    <MESSAGE value="bars" />
+    <MESSAGE value="port" />
+    <MESSAGE value="index.html" />
+    <MESSAGE value="close menu xs" />
+    <MESSAGE value="print" />
+    <MESSAGE value="start cleaning" />
+    <MESSAGE value="clean" />
+    <MESSAGE value="g+" />
+    <option name="LAST_COMMIT_MESSAGE" value="g+" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/resume.js</url>
+          <line>56</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/resume.js</url>
+          <line>212</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+>>>>>>> FETCH_HEAD
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6645">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6645">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2452" max-vertical-offset="5185">
-          <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2130" max-vertical-offset="8010">
+          <caret line="395" column="13" selection-start-line="395" selection-start-column="13" selection-end-line="395" selection-end-column="13" />
+          <folding>
+            <element signature="e#3839#4011#0" expanded="false" />
+            <element signature="e#4012#5043#0" expanded="false" />
+            <element signature="e#5044#6242#0" expanded="false" />
+            <element signature="e#6243#7307#0" expanded="false" />
+            <element signature="e#7308#8894#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/js/resume.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="5695">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="4200" max-vertical-offset="4440">
+          <caret line="280" column="22" selection-start-line="280" selection-start-column="22" selection-end-line="280" selection-end-column="22" />
+          <folding>
+            <element signature="e#440#1574#0" expanded="false" />
+            <element signature="e#1691#4818#0" expanded="false" />
+            <element signature="e#4897#5001#0" expanded="false" />
+            <element signature="e#5089#6636#0" expanded="false" />
+            <element signature="e#6763#7334#0" expanded="false" />
+            <element signature="e#7440#7532#0" expanded="false" />
+            <element signature="e#7665#7910#0" expanded="false" />
+            <element signature="e#7946#8001#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6270">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> FETCH_HEAD
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -545,7 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1717">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,11 +1179,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2452" max-vertical-offset="5185">
           <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="e#3839#4011#0" expanded="false" />
+            <element signature="e#4012#5043#0" expanded="false" />
+            <element signature="e#5044#6242#0" expanded="false" />
+            <element signature="e#6243#7307#0" expanded="false" />
+            <element signature="e#7308#8894#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="5695">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -576,7 +1208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1530">
           <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,11 +1215,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1343" max-vertical-offset="4811">
           <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="e#3839#4011#0" expanded="false" />
+            <element signature="e#4012#5043#0" expanded="false" />
+            <element signature="e#5044#6242#0" expanded="false" />
+            <element signature="e#6243#7307#0" expanded="false" />
+            <element signature="e#7308#8894#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="5219">
           <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
@@ -607,7 +1244,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1632">
           <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,11 +1251,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1343" max-vertical-offset="4811">
           <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="e#3839#4011#0" expanded="false" />
+            <element signature="e#4012#5043#0" expanded="false" />
+            <element signature="e#5044#6242#0" expanded="false" />
+            <element signature="e#6243#7307#0" expanded="false" />
+            <element signature="e#7308#8894#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3570" max-vertical-offset="5219">
           <caret line="248" column="5" selection-start-line="248" selection-start-column="5" selection-end-line="248" selection-end-column="5" />
@@ -638,11 +1280,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1139">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2482" max-vertical-offset="3927">
           <caret line="146" column="22" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
@@ -668,11 +1309,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1543" max-vertical-offset="3570">
           <caret line="146" column="22" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
@@ -698,11 +1338,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
           <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="4947">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
@@ -721,11 +1360,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
           <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="5166">
           <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
@@ -744,11 +1382,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="1062">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4752" max-vertical-offset="5238">
           <caret line="264" column="22" selection-start-line="264" selection-start-column="22" selection-end-line="264" selection-end-column="22" />
@@ -767,18 +1404,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="1003">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-2.1.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="94367" max-vertical-offset="156332">
-          <caret line="5551" column="29" selection-start-line="5551" selection-start-column="29" selection-end-line="5551" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="4930">
           <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
@@ -797,11 +1426,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2055" max-vertical-offset="3179">
           <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
@@ -820,11 +1448,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="442">
           <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2068" max-vertical-offset="3179">
           <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
@@ -839,7 +1466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="3094">
           <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
@@ -854,7 +1481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="3094">
           <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
@@ -886,7 +1513,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resume.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1309">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
@@ -914,21 +1541,17 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+<<<<<<< HEAD
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
+=======
+>>>>>>> FETCH_HEAD
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.059806507" vertical-offset="0" max-vertical-offset="1137">
           <caret line="4" column="9760" selection-start-line="4" selection-start-column="9760" selection-end-line="4" selection-end-column="9760" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.animate-colors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2822">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -939,13 +1562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery-2.1.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="93843" max-vertical-offset="156128">
-          <caret line="5551" column="29" selection-start-line="5551" selection-start-column="29" selection-end-line="5551" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22685185" vertical-offset="5144" max-vertical-offset="7616">
@@ -953,27 +1569,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dark.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/body-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="79846" max-vertical-offset="105553">
-          <caret line="4718" column="0" selection-start-line="4718" selection-start-column="0" selection-end-line="4718" selection-end-column="0" />
+        <state vertical-scroll-proportion="16.701754" vertical-offset="75834" max-vertical-offset="93135">
+          <caret line="6198" column="2" selection-start-line="6198" selection-start-column="2" selection-end-line="6198" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.scrollTo.js">
+    <entry file="file://$PROJECT_DIR$/xyz.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3145">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="390">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.localScroll.js">
+    <entry file="file://$PROJECT_DIR$/js/resume.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+          <folding>
+            <element signature="e#440#1574#0" expanded="false" />
+            <element signature="e#1691#4818#0" expanded="false" />
+            <element signature="e#4897#5001#0" expanded="false" />
+            <element signature="e#5089#6636#0" expanded="false" />
+            <element signature="e#6763#7334#0" expanded="false" />
+            <element signature="e#7440#7532#0" expanded="false" />
+            <element signature="e#7665#7910#0" expanded="false" />
+            <element signature="e#7946#8001#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/assets/ie10-viewport-bug-workaround.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -993,11 +1630,28 @@
           <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
 >>>>>>> FETCH_HEAD
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/js/jquery-2.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="786">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="732">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+>>>>>>> FETCH_HEAD
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/resume.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1717">
           <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
@@ -1020,6 +1674,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2282507" vertical-offset="4871" max-vertical-offset="6030">
           <caret line="341" column="47" selection-start-line="341" selection-start-column="47" selection-end-line="341" selection-end-column="47" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="2039" max-vertical-offset="3285">
+          <caret line="147" column="27" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
+          <folding>
+            <element signature="e#3839#4011#0" expanded="false" />
+            <element signature="e#4012#5043#0" expanded="false" />
+            <element signature="e#5044#6242#0" expanded="false" />
+            <element signature="e#6243#7307#0" expanded="false" />
+            <element signature="e#7308#8894#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33277592" vertical-offset="5077" max-vertical-offset="8550">
+          <caret line="365" column="54" selection-start-line="365" selection-start-column="54" selection-end-line="365" selection-end-column="54" />
+>>>>>>> FETCH_HEAD
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1028,6 +1700,9 @@
             <element signature="n#style#0;n#div#0;n#div#4;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#5;n#div#2;n#section#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
         </state>
       </provider>
